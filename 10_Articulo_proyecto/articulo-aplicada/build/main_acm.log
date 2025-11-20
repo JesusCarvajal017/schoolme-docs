@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  10 NOV 2025 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.20)  20 NOV 2025 08:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,16 +6,17 @@ entering extended mode
 **main_acm.tex
 (./main_acm.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
+L3 programming layer <2025-11-06>
 (/opt/texlive/texdir/texmf-dist/tex/latex/acmart/acmart.cls
 Document Class: acmart 2025/08/27 v2.16 Typesetting articles for the Associatio
 n for Computing Machinery
 (/opt/texlive/texdir/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/opt/texlive/t
 exdir/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
+\XKV@tempb@toks=\toks19
 (/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count271
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -54,7 +55,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2024/11/17 v2.01 AMS text
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks20
 \ex@=\dimen150
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -92,21 +93,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count281
 \dspbrk@lvl=\count282
-\tag@help=\toks20
+\tag@help=\toks21
 \row@=\count283
 \column@=\count284
 \maxfields@=\count285
-\andhelp@=\toks21
+\andhelp@=\toks22
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
 \tagshift@=\dimen155
 \tagwidth@=\dimen156
 \totwidth@=\dimen157
 \lineht@=\dimen158
-\@envbody=\toks22
+\@envbody=\toks23
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
@@ -136,15 +137,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 \captionindent=\dimen159
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
 \thm@preskip=\skip56
 \thm@postskip=\skip57
 \thm@headsep=\skip58
-\dth@everypar=\toks29
+\dth@everypar=\toks30
 )
 LaTeX Info: Redefining \markboth on input line 283.
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/microtype.sty
@@ -153,12 +154,12 @@ Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count294
 )
-\MT@toks=\toks30
+\MT@toks=\toks31
 \MT@tempbox=\box56
 \MT@count=\count295
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks31
+\MT@prot@toks=\toks32
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen160
@@ -313,7 +314,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip62
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2024/03/17 v5.13 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks32
+\hyxmp@aep@toks=\toks33
 (/opt/texlive/texdir/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
@@ -370,7 +371,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen186
 \Gm@layouthoffset=\dimen187
 \Gm@layoutvoffset=\dimen188
-\Gm@dimlist=\toks33
+\Gm@dimlist=\toks34
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/ncctools/manyfoot.sty
 Package: manyfoot 2019/08/03 v1.11 Many Footnote Levels Package (NCC)
 (/opt/texlive/texdir/texmf-dist/tex/latex/ncctools/nccfoots.sty
@@ -386,7 +387,7 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/opt
 /texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-10-24 L3 programming layer (loader) 
+Package: expl3 2025-11-06 L3 programming layer (loader) 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count321
@@ -1651,12 +1652,12 @@ Package caption Info: hyperref package is loaded.
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count340
-\float@exts=\toks34
+\float@exts=\toks35
 \float@box=\box58
-\@float@everytoks=\toks35
+\@float@everytoks=\toks36
 \@floatcapt=\box59
 )
-\@float@every@sidebar=\toks36
+\@float@every@sidebar=\toks37
 \c@sidebar=\count341
 \fulltextwidth=\dimen257
 \@ACM@labelwidth=\dimen258
@@ -1697,10 +1698,10 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip79
 \f@nch@widthC=\skip80
 \f@nch@widthR=\skip81
-\@temptokenb=\toks37
+\@temptokenb=\toks38
 ) Special comment 'acks') (./includes/preamble_common.tex (/opt/texlive/texdir/
 texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count345
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -1728,10 +1729,10 @@ on input line 2083.
 \bbl@dirlevel=\count346
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
 Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 4295.
+(babel)             from babel-es.ini. Reported on input line 4298.
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks38
+\es@quottoks=\toks39
 \es@quotdepth=\count347
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
@@ -1750,7 +1751,7 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@qlevel=\count351
 \csq@maxlvl=\count352
 \csq@tshold=\count353
-\csq@ltx@everypar=\toks39
+\csq@ltx@everypar=\toks40
 (/opt/texlive/texdir/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -1802,16 +1803,16 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen266
 \ar@mcellbox=\box72
 \extrarowheight=\dimen267
-\NC@list=\toks40
+\NC@list=\toks41
 \extratabsurround=\skip82
 \backup@length=\skip83
 \ar@cellbox=\box73
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks41
+\enitkv@toks@=\toks42
 \labelindent=\skip84
 \enit@outerparindent=\dimen268
-\enit@toks=\toks42
+\enit@toks=\toks43
 \enit@inbox=\box74
 \enit@count@id=\count370
 \enitdp@description=\count371
@@ -1834,7 +1835,7 @@ Package cleveref Info: `amsthm' support loaded on input line 3026.
 (/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count372
 \lst@gtempboxa=\box75
-\lst@token=\toks43
+\lst@token=\toks44
 \lst@length=\count373
 \lst@currlwidth=\dimen269
 \lst@column=\count374
@@ -1845,19 +1846,24 @@ Package cleveref Info: `amsthm' support loaded on input line 3026.
 \lst@lineno=\count377
 \lst@maxwidth=\dimen272
 (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstpatch.sty 2025/11/14 1.11a (Carsten Heinz)
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstmisc.sty 2025/11/14 1.11a (Carsten Heinz)
 \c@lstnumber=\count378
 \lst@skipnumbers=\count379
 \lst@framebox=\box76
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+File: listings.cfg 2025/11/14 1.11a listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
-==> First Aid for listings.sty applied!
+Package: listings 2025/11/14 1.11a (Carsten Heinz)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11a (Carsten Heinz)
+    so I'm assuming it got fixed.
 ) (./includes/preamble_acm.tex)
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 30.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 23.
 
 \c@theorem=\count380
 (/opt/texlive/texdir/texmf-dist/tex/latex/preprint/balance.sty
@@ -1870,82 +1876,82 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (build/main_acm.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 23.
+(babel)             Reported on input line 22.
 )
 \openout1 = `main_acm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 30.
+(Font)              scaled to size 7.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 7.26596pt on input line 30.
+(Font)              scaled to size 7.26596pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 5.18997pt on input line 30.
+(Font)              scaled to size 5.18997pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.2666pt on input line 30.
+(Font)              scaled to size 7.2666pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.19043pt on input line 30.
+(Font)              scaled to size 5.19043pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.26521pt on input line 30.
+(Font)              scaled to size 7.26521pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.18944pt on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+(Font)              scaled to size 5.18944pt on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 30.
+(Font)              scaled to size 9.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 7.47354pt on input line 30.
+(Font)              scaled to size 7.47354pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 5.60515pt on input line 30.
+(Font)              scaled to size 5.60515pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.34277pt on input line 30.
+(Font)              scaled to size 9.34277pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.47421pt on input line 30.
+(Font)              scaled to size 7.47421pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.60565pt on input line 30.
+(Font)              scaled to size 5.60565pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.34099pt on input line 30.
+(Font)              scaled to size 9.34099pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.47278pt on input line 30.
+(Font)              scaled to size 7.47278pt on input line 23.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.60458pt on input line 30.
-LaTeX Info: Redefining \microtypecontext on input line 30.
-Package microtype Info: Applying patch `item' on input line 30.
-Package microtype Info: Applying patch `toc' on input line 30.
-Package microtype Info: Applying patch `eqnum' on input line 30.
-Package microtype Info: Applying patch `footnote' on input line 30.
-Package microtype Info: Applying patch `verbatim' on input line 30.
-LaTeX Info: Redefining \microtypesetup on input line 30.
+(Font)              scaled to size 5.60458pt on input line 23.
+LaTeX Info: Redefining \microtypecontext on input line 23.
+Package microtype Info: Applying patch `item' on input line 23.
+Package microtype Info: Applying patch `toc' on input line 23.
+Package microtype Info: Applying patch `eqnum' on input line 23.
+Package microtype Info: Applying patch `footnote' on input line 23.
+Package microtype Info: Applying patch `verbatim' on input line 23.
+LaTeX Info: Redefining \microtypesetup on input line 23.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1955,7 +1961,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinLibertine' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 23.
 (build/main_acm.out) (build/main_acm.out)
 \@outlinefile=\write4
 \openout4 = `main_acm.out'.
@@ -1998,8 +2004,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/translations/translations-basic-dicti
 onary-spanish.trsl
@@ -2007,32 +2013,32 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 30.
+or `spanish'. on input line 23.
 \c@lstlisting=\count381
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 31.
+(Font)              scaled to size 17.28pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 31.
+(Font)              scaled to size 17.28pt on input line 24.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinBiolinum' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 31.
+(Font)              scaled to size 17.28pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 31.
+(Font)              scaled to size 10.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 10.37994pt on input line 31.
+(Font)              scaled to size 10.37994pt on input line 24.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusMath-Regular.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 10.38086pt on input line 31.
+(Font)              scaled to size 10.38086pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 10.37888pt on input line 31.
+(Font)              scaled to size 10.37888pt on input line 24.
 (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -2043,140 +2049,871 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 31.
+(Font)              scaled to size 9.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 31.
-(./sections/00_abstract.tex) (./sections/01_introduccion.tex) (./sections/02_re
-lacionados.tex) (./sections/03_metodologia.tex
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
+(Font)              scaled to size 10.95pt on input line 24.
+(./sections/00_abstract.tex
 
-Class acmart Warning: A possible image without description on input line 13.
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+2.
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `inconsolata' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-Overfull \hbox (3.55005pt too wide) in paragraph at lines 16--17
-[]\TU/LinLibertine(0)/m/n/9 Recolectamos issues, \TU/LinLibertine(0)/m/it/9 pul
-l requests\TU/LinLibertine(0)/m/n/9 , \TU/LinLibertine(0)/m/it/9 pipelines \TU/
-LinLibertine(0)/m/n/9 CI, cobertura de prue-
- []
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 2.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 1 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 1 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 1 undefined on input lin
+e 2.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 1 undefined on input li
+ne 2.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+7.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 1 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 1 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 1 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `Tolosa2014' on page 1 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 1 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 1 undefined on input line
+ 12.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 1 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 1 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 1 undefined on input lin
+e 18.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./sections/01_introduccion.tex
+
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 2.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 1 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 1 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 1 undefined on input li
+ne 9.
+
+
+Package natbib Warning: Citation `Tolosa2014' on page 1 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 1 undefined on input lin
+e 9.
 
 [1.1
 
-]) (./sections/04_implementacion.tex
-Overfull \hbox (3.96474pt too wide) in paragraph at lines 2--3
-[]\TU/LinLibertine(0)/m/n/9 Describimos arquitectura, decisiones tecnológicas y
- \TU/LinLibertine(0)/m/it/9 pipelines\TU/LinLibertine(0)/m/n/9 . Do-
- []
+]
 
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
-
-Class acmart Warning: A possible image without description on input line 12.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 33.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 33.
-(./tables/frameworks_comparison.tex
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 8.30396pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 6.22797pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.30469pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.22852pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 8.3031pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 6.22733pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 8.
-)) (./sections/05_resultados.tex
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
-
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 11--12
- [][] 
- []
+Package natbib Warning: Citation `Frometa2012' on page 2 undefined on input lin
+e 11.
 
 
-Class acmart Warning: A possible image without description on input line 14.
-
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
-
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 21--22
- [][] 
- []
+Package natbib Warning: Citation `Miro2005' on page 2 undefined on input line 1
+1.
 
 
-Class acmart Warning: A possible image without description on input line 24.
+Package natbib Warning: Citation `Garvie2024' on page 2 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 2 undefined on input line
+ 13.
+
+) (./sections/02_relacionados.tex
+
+Package natbib Warning: Citation `Prieto2018' on page 2 undefined on input line
+ 7.
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
+Package natbib Warning: Citation `Frometa2012' on page 2 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Miro2005' on page 2 undefined on input line 9
+.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 2 undefined on input lin
+e 11.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 2 undefined on input li
+ne 16.
+
+
+Package natbib Warning: Citation `Tolosa2014' on page 2 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 2 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 2 undefined on input line 
+20.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 2 undefined on input line
+ 20.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 2 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 2 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 2 undefined on input line 
+27.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 2 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 2 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `Alaminos2009' on page 2 undefined on input li
+ne 29.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
+(Font)              scaled to size 9.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 29.
-[2.2]) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex) (./sectio
-ns/A1_apendices.tex
-Overfull \hbox (2.15796pt too wide) in paragraph at lines 8--9
-[]\TU/LinLibertine(0)/b/n/9 Resultados\TU/LinLibertine(0)/m/n/9 : tablas/figura
-s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
+(Font)              scaled to size 7.0pt on input line 31.
+[2.2]) (./sections/03_metodologia.tex
+
+Package natbib Warning: Citation `Costa2016' on page 3 undefined on input line 
+21.
+
+
+Package natbib Warning: Citation `Costa2016' on page 3 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 3 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `Miro2005' on page 3 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 3 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 3 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 3 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 3 undefined on input line
+ 30.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 3 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 3 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 3 undefined on input line
+ 32.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./sections/04_implementacion.tex
+
+Package natbib Warning: Citation `Frometa2012' on page 3 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Miro2005' on page 3 undefined on input line 9
+.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 3 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 3 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 3 undefined on input line
+ 11.
+
+
+Overfull \hbox (13.20853pt too wide) in paragraph at lines 11--12
+[]\TU/LinLibertine(0)/m/n/9 Calidad Tecnológica: (Rigor metodológico, Estandari
+zación ISO/IEC
  []
 
-) (build/main_acm.bbl
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 43.
-LaTeX Info: Redefining \tempurl on input line 102.
-)
 
-Class acmart Warning: Some images may lack descriptions.
-(acmart)              ACM is committed to complying with the upcoming US ADA ht
-tps://accessiblyapp.com/accessibility-compliance/ada/ and European Accessibilit
-y Act (EAA) https://accessiblyapp.com/accessibility-compliance/eaa/ regulations
- by actively working to ensure our publications and application services are ac
-cessible to individuals with disabilities, adhering to the WCAG guidelines to p
-rovide a seamless experience for all users, and regularly reviewing our accessi
-bility practices to maintain compliance with evolving standards. 
-(acmart)              To this end, we strongly encourage our authors to provide
- alternative text and captions for images and multimedia content. It is also im
-portant to optimize color contrast for the visually impaired. Taking these impo
-rtant steps when creating your papers will ensure that the widest possible audi
-ence can ingest your work..
+Package natbib Warning: Citation `Garvie2024' on page 3 undefined on input line
+ 13.
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+Package natbib Warning: Citation `Prieto2018' on page 3 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 3 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 3 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 3 undefined on input line 
+27.
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [3.3] (build/main_acm.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
- ***********
-Package rerunfilecheck Info: File `main_acm.out' has not changed.
-(rerunfilecheck)             Checksum: 56701EE2706D216CDC9D789F72A3F575;3862.
- ) 
-Here is how much of TeX's memory you used:
- 42011 strings out of 468179
- 857958 string characters out of 5435042
- 1562793 words of memory out of 5000000
- 70062 multiletter control sequences out of 15000+600000
- 636677 words of font info for 157 fonts, out of 8000000 for 9000
- 1509 hyphenation exceptions out of 8191
- 105i,13n,131p,1005b,32914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+) [3.3]
 
-Output written on build/main_acm.xdv (3 pages, 140208 bytes).
+Package natbib Warning: Citation `MarquesSF' on page 4 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Alaminos2009' on page 4 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 4 undefined on input lin
+e 33.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 4 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 4 undefined on input line
+ 36.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 4 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 4 undefined on input lin
+e 39.
+
+) (./sections/05_resultados.tex
+
+Package natbib Warning: Citation `Rivas2025' on page 4 undefined on input line 
+7.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 4 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 4 undefined on input line 
+9.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 4 undefined on input line 
+9.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 4 undefined on input line
+ 11.
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 4 undefined on input li
+ne 16.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 4 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `Costa2016' on page 4 undefined on input line 
+20.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 4 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 4 undefined on input lin
+e 27.
+
+
+Package natbib Warning: Citation `Miro2005' on page 4 undefined on input line 2
+7.
+
+) (./sections/06_discusion.tex
+
+Package natbib Warning: Citation `Espinosa2021' on page 4 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 4 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 4 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Miro2005' on page 4 undefined on input line 7
+.
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+[4.4]
+
+Package natbib Warning: Citation `Gruber2024' on page 5 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 5 undefined on input line 
+11.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 5 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 5 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 5 undefined on input lin
+e 20.
+
+) (./sections/07_conclusiones.tex
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
+Package natbib Warning: Citation `Rivas2025' on page 5 undefined on input line 
+9.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 5 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 5 undefined on input lin
+e 11.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 5 undefined on input line 
+13.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 5 undefined on input lin
+e 13.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 5 undefined on input li
+ne 18.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 5 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 5 undefined on input line
+ 22.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 5 undefined on input line
+ 27.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 5 undefined on input line
+ 27.
+
+) (./sections/A1_apendices.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5.5]
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 7.2pt on input line 15.
+./sections/A1_apendices.tex:16: You can't use `\spacefactor' in math mode.
+\@->\spacefactor 
+                 \@m {}
+l.16 ...n las librerías TikZ y PGFPlots en $\LaTeX
+                                                  $, se utilizan para visual...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 📊 (U+1F4CA) in font [LinLibertine_R.otf]/OT:scri
+pt=latn;language=dflt;+tnum;+lnum;mapping=tex-text;!
+
+Package natbib Warning: Citation `Espinosa2021' on page 6 undefined on input li
+ne 19.
+
+
+Package natbib Warning: Citation `Tolosa2014' on page 6 undefined on input line
+ 19.
+
+
+./sections/A1_apendices.tex:22: LaTeX Error: Environment tikzpicture undefined.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{tikzpicture}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./sections/A1_apendices.tex:23: LaTeX Error: Environment axis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{axis}
+                 [
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./sections/A1_apendices.tex:30: Undefined control sequence.
+l.30 \addplot
+              coordinates {(Rendimiento,81) (Seguridad,78) (Mantenibilidad,8...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:31: Undefined control sequence.
+l.31 \addplot
+              coordinates {(Rendimiento,65) (Seguridad,70) (Mantenibilidad,7...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:32: Undefined control sequence.
+l.32 \legend
+            {Django,Laravel}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./sections/A1_apendices.tex:33: LaTeX Error: \begin{document} ended by \end{axi
+s}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{axis}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./sections/A1_apendices.tex:34: LaTeX Error: \begin{document} ended by \end{tik
+zpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.56656pt too wide) in paragraph at lines 21--35
+\TU/LinLibertine(0)/m/n/9 Seguridad, Mantenibilidad, Escalabilidad, xtick=data,
+ ylabel=Porcentaje
+ []
+
+
+Overfull \hbox (14.54251pt too wide) in paragraph at lines 21--35
+\TU/LinLibertine(0)/m/n/9 (Rendimiento,65) (Seguridad,70) (Mantenibilidad,75) (
+Escalabilidad,72);
+ []
+
+Missing character: There is no 📊 (U+1F4CA) in font [LinLibertine_R.otf]/OT:scri
+pt=latn;language=dflt;+tnum;+lnum;mapping=tex-text;!
+
+./sections/A1_apendices.tex:40: LaTeX Error: Environment tikzpicture undefined.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{tikzpicture}
+                        [node distance=2cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./sections/A1_apendices.tex:41: Undefined control sequence.
+l.41 \node
+           (human) [circle,draw] {Humano};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:42: Undefined control sequence.
+l.42 \node
+           (tech) [circle,draw, right of=human] {Tecnología};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:43: Undefined control sequence.
+l.43 \node
+           (ethics) [circle,draw, below of=tech] {Ética};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:44: Undefined control sequence.
+l.44 \node
+           (quality) [circle,draw, below of=human] {Calidad};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:45: Undefined control sequence.
+l.45 \draw
+          [->] (human) -- (tech);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:46: Undefined control sequence.
+l.46 \draw
+          [->] (tech) -- (ethics);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:47: Undefined control sequence.
+l.47 \draw
+          [->] (human) -- (quality);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:48: Undefined control sequence.
+l.48 \draw
+          [->] (quality) -- (tech);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./sections/A1_apendices.tex:49: LaTeX Error: \begin{document} ended by \end{tik
+zpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (3.1405pt too wide) in paragraph at lines 39--50
+[]\TU/LinLibertine(0)/m/n/9 Fragmento de código [node distance=2cm] (human) [ci
+rcle,draw]
+ []
+
+
+Overfull \hbox (26.95352pt too wide) in paragraph at lines 39--50
+\TU/LinLibertine(0)/m/n/9 [circle,draw, below of=tech] Ética; (quality) [circle
+,draw, below of=human]
+ []
+
+Missing character: There is no 📊 (U+1F4CA) in font [LinLibertine_R.otf]/OT:scri
+pt=latn;language=dflt;+tnum;+lnum;mapping=tex-text;!
+
+Package natbib Warning: Citation `Garvie2024' on page 6 undefined on input line
+ 52.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 6 undefined on input lin
+e 52.
+
+
+Package natbib Warning: Citation `Miro2005' on page 6 undefined on input line 5
+2.
+
+
+./sections/A1_apendices.tex:55: LaTeX Error: Environment tikzpicture undefined.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{tikzpicture}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./sections/A1_apendices.tex:56: LaTeX Error: Environment axis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{axis}
+                 [
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./sections/A1_apendices.tex:63: Undefined control sequence.
+l.63 \addplot
+              coordinates {(Seguridad,9) (Ética,8) (Salud,7) (Cognitivo,8)};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./sections/A1_apendices.tex:64: LaTeX Error: \begin{document} ended by \end{axi
+s}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \end{axis}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./sections/A1_apendices.tex:65: LaTeX Error: \begin{document} ended by \end{tik
+zpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (16.99135pt too wide) in paragraph at lines 54--66
+\TU/LinLibertine(0)/m/n/9 pacto, symbolic x coords=Seguridad, Ética, Salud, Cog
+nitivo, xtick=data,
+ []
+
+Missing character: There is no 📊 (U+1F4CA) in font [LinLibertine_R.otf]/OT:scri
+pt=latn;language=dflt;+tnum;+lnum;mapping=tex-text;!
+
+./sections/A1_apendices.tex:71: LaTeX Error: Environment tikzpicture undefined.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{tikzpicture}
+                        [node distance=2cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./sections/A1_apendices.tex:72: Undefined control sequence.
+l.72 \node
+           (tech) [rectangle,draw] {Tecnología};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:73: Undefined control sequence.
+l.73 \node
+           (ed) [rectangle,draw, below left of=tech] {Educación};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:74: Undefined control sequence.
+l.74 \node
+           (eng) [rectangle,draw, below of=tech] {Ingeniería};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./sections/A1_apendices.tex:75: Undefined control sequence.
+l.75 \node
+           (eth) [rectangle,draw, below right of=tech] {Ética y Salud};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Runaway argument?
+->] (tech) edge (ed)^^M              (tech) edge (eng)^^M            \ETC.
+./main_acm.tex:33: File ended while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.33 \input{sections/A1_apendices}
+                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+
+Overfull \hbox (7.21751pt too wide) in paragraph at lines 70--33
+[]\TU/LinLibertine(0)/m/n/9 Fragmento de código [node distance=2cm] (tech) [rec
+tangle,draw]
+ []
+
+
+Overfull \hbox (13.24878pt too wide) in paragraph at lines 70--33
+\TU/LinLibertine(0)/m/n/9 (eng) [rectangle,draw, below of=tech] Ingeniería; (et
+h) [rectangle,draw,
+ []
+
+)
+! Emergency stop.
+<*> main_acm.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 41663 strings out of 468179
+ 850556 string characters out of 5435042
+ 1387254 words of memory out of 5000000
+ 69748 multiletter control sequences out of 15000+600000
+ 634513 words of font info for 137 fonts, out of 8000000 for 9000
+ 1509 hyphenation exceptions out of 8191
+ 105i,13n,131p,1005b,32916s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on build/main_acm.xdv (5 pages, 334640 bytes).

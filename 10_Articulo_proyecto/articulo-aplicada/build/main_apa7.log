@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  10 NOV 2025 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.20)  20 NOV 2025 08:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **main_apa7.tex
 (./main_apa7.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
+L3 programming layer <2025-11-06>
 (/opt/texlive/texdir/texmf-dist/tex/latex/apa7/apa7.cls
 Document Class: apa7 2022/07/25 v2.16 APA formatting (7th edition)
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
@@ -629,7 +629,7 @@ d (jdm)
 \@ef@fffopen=\count335
 )) (./includes/preamble_common.tex (/opt/texlive/texdir/texmf-dist/tex/generic/
 babel/babel.sty
-Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count336
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -653,7 +653,7 @@ on input line 2083.
 \bbl@dirlevel=\count337
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
 Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 4295.
+(babel)             from babel-es.ini. Reported on input line 4298.
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks32
@@ -670,7 +670,7 @@ LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty (/opt/texlive/t
 exdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/opt/texlive/texdir/te
 xmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-10-24 L3 programming layer (loader) 
+Package: expl3 2025-11-06 L3 programming layer (loader) 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count339
@@ -832,17 +832,22 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 \lst@lineno=\count384
 \lst@maxwidth=\dimen313
 (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstpatch.sty 2025/11/14 1.11a (Carsten Heinz)
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstmisc.sty 2025/11/14 1.11a (Carsten Heinz)
 \c@lstnumber=\count385
 \lst@skipnumbers=\count386
 \lst@framebox=\box80
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+File: listings.cfg 2025/11/14 1.11a listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
-==> First Aid for listings.sty applied!
+Package: listings 2025/11/14 1.11a (Carsten Heinz)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11a (Carsten Heinz)
+    so I'm assuming it got fixed.
 ) (./includes/preamble_apa7.tex (/opt/texlive/texdir/texmf-dist/tex/latex/bibla
 tex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
@@ -1094,7 +1099,7 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-10-24 L3 programming layer (loader) 
+(biblatex)             2025-11-06 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
@@ -1240,7 +1245,49 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 
 [1
 
-] (./sections/00_abstract.tex)
+] (./sections/00_abstract.tex
+
+LaTeX Warning: Citation 'Rivas2025' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Ribas2008' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Rivas2025' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Bishop2005' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Tolosa2014' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Garvie2024' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 2 undefined on input line 12.
+
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1248,42 +1295,409 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[2] (./sections/01_introduccion.tex) (./sections/02_relacionados.tex) (./sectio
-ns/03_metodologia.tex
+[2]
 
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+LaTeX Warning: Citation 'Garvie2024' on page 3 undefined on input line 18.
 
-[3]
-\openout5 = `main_apa7.fff'.
 
-(main_apa7.fff)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) (./sections/04_implementacion.tex
+LaTeX Warning: Citation 'Prieto2018' on page 3 undefined on input line 18.
 
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[4] (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
+LaTeX Warning: Citation 'Frometa2012' on page 3 undefined on input line 18.
+
 )
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 33.
-(./tables/frameworks_comparison.tex
-\openout4 = `main_apa7.ttt'.
 
-(main_apa7.ttt))) (./sections/05_resultados.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-.
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[3] (./sections/01_introduccion.tex
+
+LaTeX Warning: Citation 'Rivas2025' on page 4 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 4 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Ribas2008' on page 4 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 4 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Tolosa2014' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 4 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 4 undefined on input line 11.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[4]
+
+LaTeX Warning: Citation 'Garvie2024' on page 5 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 5 undefined on input line 13.
+
+) (./sections/02_relacionados.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[5]
+
+LaTeX Warning: Citation 'Prieto2018' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Pacheco2020' on page 6 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 6 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Tolosa2014' on page 6 undefined on input line 16.
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[6]
+
+LaTeX Warning: Citation 'Bishop2005' on page 7 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Rivas2025' on page 7 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 7 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 7 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Garvie2024' on page 7 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'Rivas2025' on page 7 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 7 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Ribas2008' on page 7 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Alaminos2009' on page 7 undefined on input line 29.
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[7]) (./sections/03_metodologia.tex
+Missing character: There is no ∼ (U+223C) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+LaTeX Warning: Citation 'Costa2016' on page 8 undefined on input line 21.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[8]
+
+LaTeX Warning: Citation 'Costa2016' on page 9 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Rivas2025' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Ribas2008' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Bishop2005' on page 9 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 9 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'Garvie2024' on page 9 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 9 undefined on input line 32.
+
+) (./sections/04_implementacion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[9]
+
+LaTeX Warning: Citation 'Frometa2012' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Pacheco2020' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 10 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Bishop2005' on page 10 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Garvie2024' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 10 undefined on input line 13.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[10]
+
+LaTeX Warning: Citation 'Garvie2024' on page 11 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Rivas2025' on page 11 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 11 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'Alaminos2009' on page 11 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 11 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 11 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Bishop2005' on page 11 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 11 undefined on input line 39.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 11 undefined on input line 39.
+
+) (./sections/05_resultados.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[11]
+
+LaTeX Warning: Citation 'Rivas2025' on page 12 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 12 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 12 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Ribas2008' on page 12 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 12 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 12 undefined on input line 16.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[12]
+
+LaTeX Warning: Citation 'Simmons2024' on page 13 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Costa2016' on page 13 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Garvie2024' on page 13 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 13 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 13 undefined on input line 27.
+
+) (./sections/06_discusion.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[13]
+
+LaTeX Warning: Citation 'Espinosa2021' on page 14 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 14 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 14 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 14 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 14 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 14 undefined on input line 11.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[14]
+
+LaTeX Warning: Citation 'Garvie2024' on page 15 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 15 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Pacheco2020' on page 15 undefined on input line 20.
+
+) (./sections/07_conclusiones.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[15]
+
+LaTeX Warning: Citation 'Rivas2025' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Gruber2024' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 16 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'MarquesSF' on page 16 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Pacheco2020' on page 16 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Espinosa2021' on page 16 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Simmons2024' on page 16 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Bishop2005' on page 16 undefined on input line 22.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[16]
+
+LaTeX Warning: Citation 'Garvie2024' on page 17 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Prieto2018' on page 17 undefined on input line 27.
+
+) (./sections/A1_apendices.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[17]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+5.
 (/opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1291,30 +1705,923 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+5.
 (/opt/texlive/texdir/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
+15.
 (/opt/texlive/texdir/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
+15.
 (/opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 15.
+./sections/A1_apendices.tex:16: You can't use `\spacefactor' in math mode.
+\@->\spacefactor 
+                 \@m {}
+l.16 ...n las librerías TikZ y PGFPlots en $\LaTeX
+                                                  $, se utilizan para visual...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-Underfull \vbox (badness 4765) has occurred while \output is active []
+Missing character: There is no è ("E8) in font lmex10!
+Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
+tex-text;!
 
+LaTeX Warning: Citation 'Espinosa2021' on page 18 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Tolosa2014' on page 18 undefined on input line 19.
+
+
+./sections/A1_apendices.tex:23: LaTeX Error: Environment axis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{axis}
+                 [
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no R ("52) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no j ("6A) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ó ("F3) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+./sections/A1_apendices.tex:30: Undefined control sequence.
+l.30 \addplot
+              coordinates {(Rendimiento,81) (Seguridad,78) (Mantenibilidad,8...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no R ("52) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+./sections/A1_apendices.tex:31: Undefined control sequence.
+l.31 \addplot
+              coordinates {(Rendimiento,65) (Seguridad,70) (Mantenibilidad,7...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no R ("52) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+./sections/A1_apendices.tex:32: Undefined control sequence.
+l.32 \legend
+            {Django,Laravel}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no D ("44) in font nullfont!
+Missing character: There is no j ("6A) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no L ("4C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+
+./sections/A1_apendices.tex:33: LaTeX Error: \begin{tikzpicture} on input line 
+22 ended by \end{axis}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{axis}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
+tex-text;!
+./sections/A1_apendices.tex:45: Argument of \language@active@arg> has an extra 
+}.
+<inserted text> 
+                \par 
+l.45 \draw[->]
+               (human) -- (tech);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./sections/A1_apendices.tex:45: Paragraph ended before \language@active@arg> wa
+s complete.
+<to be read again> 
+                   \par 
+l.45 \draw[->]
+               (human) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:45: Paragraph ended before \pgfkeys@addpath was com
+plete.
+<to be read again> 
+                   \par 
+l.45 \draw[->]
+               (human) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./sections/A1_apendices.tex:45: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.45 \draw[->]
+               (human) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:45: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.45 \draw[->]
+               (human) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:45: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.45 \draw[->]
+               (human) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:45: Paragraph ended before \pgfkeys@splitter was co
+mplete.
+<to be read again> 
+                   \par 
+l.45 \draw[->]
+               (human) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+./sections/A1_apendices.tex:46: Argument of \language@active@arg> has an extra 
+}.
+<inserted text> 
+                \par 
+l.46 \draw[->]
+               (tech) -- (ethics);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./sections/A1_apendices.tex:46: Paragraph ended before \language@active@arg> wa
+s complete.
+<to be read again> 
+                   \par 
+l.46 \draw[->]
+               (tech) -- (ethics);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:46: Paragraph ended before \pgfkeys@addpath was com
+plete.
+<to be read again> 
+                   \par 
+l.46 \draw[->]
+               (tech) -- (ethics);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./sections/A1_apendices.tex:46: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.46 \draw[->]
+               (tech) -- (ethics);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:46: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.46 \draw[->]
+               (tech) -- (ethics);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:46: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.46 \draw[->]
+               (tech) -- (ethics);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:46: Paragraph ended before \pgfkeys@splitter was co
+mplete.
+<to be read again> 
+                   \par 
+l.46 \draw[->]
+               (tech) -- (ethics);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+./sections/A1_apendices.tex:47: Argument of \language@active@arg> has an extra 
+}.
+<inserted text> 
+                \par 
+l.47 \draw[->]
+               (human) -- (quality);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./sections/A1_apendices.tex:47: Paragraph ended before \language@active@arg> wa
+s complete.
+<to be read again> 
+                   \par 
+l.47 \draw[->]
+               (human) -- (quality);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:47: Paragraph ended before \pgfkeys@addpath was com
+plete.
+<to be read again> 
+                   \par 
+l.47 \draw[->]
+               (human) -- (quality);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./sections/A1_apendices.tex:47: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.47 \draw[->]
+               (human) -- (quality);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:47: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.47 \draw[->]
+               (human) -- (quality);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:47: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.47 \draw[->]
+               (human) -- (quality);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:47: Paragraph ended before \pgfkeys@splitter was co
+mplete.
+<to be read again> 
+                   \par 
+l.47 \draw[->]
+               (human) -- (quality);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+./sections/A1_apendices.tex:48: Argument of \language@active@arg> has an extra 
+}.
+<inserted text> 
+                \par 
+l.48 \draw[->]
+               (quality) -- (tech);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./sections/A1_apendices.tex:48: Paragraph ended before \language@active@arg> wa
+s complete.
+<to be read again> 
+                   \par 
+l.48 \draw[->]
+               (quality) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:48: Paragraph ended before \pgfkeys@addpath was com
+plete.
+<to be read again> 
+                   \par 
+l.48 \draw[->]
+               (quality) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./sections/A1_apendices.tex:48: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.48 \draw[->]
+               (quality) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:48: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.48 \draw[->]
+               (quality) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:48: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.48 \draw[->]
+               (quality) -- (tech);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:48: Paragraph ended before \pgfkeys@splitter was co
+mplete.
+<to be read again> 
+                   \par 
+l.48 \draw[->]
+               (quality) -- (tech);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
+tex-text;!
+
+LaTeX Warning: Citation 'Garvie2024' on page 18 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'Frometa2012' on page 18 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'Miro2005' on page 18 undefined on input line 52.
+
+
+./sections/A1_apendices.tex:56: LaTeX Error: Environment axis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{axis}
+                 [
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no j ("6A) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no R ("52) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no N ("4E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no I ("49) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no É ("C9) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no C ("43) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+./sections/A1_apendices.tex:63: Undefined control sequence.
+l.63 \addplot
+              coordinates {(Seguridad,9) (Ética,8) (Salud,7) (Cognitivo,8)};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no É ("C9) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no C ("43) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+./sections/A1_apendices.tex:64: LaTeX Error: \begin{tikzpicture} on input line 
+55 ended by \end{axis}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \end{axis}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
+tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1322,38 +2629,86 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[5]) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex
+[18]
+./sections/A1_apendices.tex:76: Argument of \language@active@arg> has an extra 
+}.
+<inserted text> 
+                \par 
+l.76 \path[->] (
+                tech) edge (ed)
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+Runaway argument?
+./sections/A1_apendices.tex:76: Paragraph ended before \language@active@arg> wa
+s complete.
+<to be read again> 
+                   \par 
+l.76 \path[->] (
+                tech) edge (ed)
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-[6]) (./sections/A1_apendices.tex
+Runaway argument?
+-
+./sections/A1_apendices.tex:76: Paragraph ended before \pgfkeys@addpath was com
+plete.
+<to be read again> 
+                   \par 
+l.76 \path[->] (
+                tech) edge (ed)
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+./sections/A1_apendices.tex:76: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.76 \path[->] (
+                tech) edge (ed)
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-[7] (build/main_apa7.ttt
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 8.
+./sections/A1_apendices.tex:76: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.76 \path[->] (
+                tech) edge (ed)
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./sections/A1_apendices.tex:76: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.76 \path[->] (
+                tech) edge (ed)
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+./sections/A1_apendices.tex:76: Paragraph ended before \pgfkeys@splitter was co
+mplete.
+<to be read again> 
+                   \par 
+l.76 \path[->] (
+                tech) edge (ed)
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
 )
 
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+LaTeX Warning: Empty bibliography on input line 28.
 
-[8
-
-] (build/main_apa7.fff
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
+AED endfloat: Processing end Figures and Tables
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1361,88 +2716,42 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[9
-
-]
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[10
-
-]
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[11
-
-]
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
-)
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[12
-
-])
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[13
-
-] AED endfloat: Processing end Figures and Tables
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[14
-
-
-] (build/main_apa7.aux
+[19] (build/main_apa7.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-10-24>
+L3 programming layer <2025-11-06>
  ***********
-Package rerunfilecheck Info: File `main_apa7.out' has not changed.
-(rerunfilecheck)             Checksum: 6C206CCBABE2F76EAF86BF642B23F55E;3072.
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main_apa7.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main_apa7.out':
+(rerunfilecheck)             Before: 908E187CF840FA54222F8A38057A5C7D;1267
+(rerunfilecheck)             After:  925715FE3EC878382B1E9E9AE27B9881;3533.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main_apa7
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main_apa7.run.xml'.
 \openout1 = `main_apa7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43675 strings out of 468179
- 926714 string characters out of 5435042
- 1921928 words of memory out of 5000000
- 71805 multiletter control sequences out of 15000+600000
- 660189 words of font info for 76 fonts, out of 8000000 for 9000
+ 43363 strings out of 468179
+ 919738 string characters out of 5435042
+ 1879008 words of memory out of 5000000
+ 71524 multiletter control sequences out of 15000+600000
+ 652939 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,118p,1006b,5084s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1006b,4557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_apa7.xdv (14 pages, 119692 bytes).
+Output written on build/main_apa7.xdv (19 pages, 351580 bytes).

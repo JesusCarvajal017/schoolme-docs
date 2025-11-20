@@ -1,23 +1,39 @@
-\section{Metodología de investigación aplicada}
-\subsection{Diseño}
-Elegimos un diseño de \textit{action research} con iteraciones planificar--actuar--observar--reflexionar, complementado con estudio de caso. Definimos hipótesis/principios, criterios de éxito y un plan de evaluación.
+\section{Metodología: Análisis Documental Sintético e Inductivo}
+La metodología empleada en este artículo se basa en un Análisis Documental Sintético y Comparativo con un enfoque interpretativo, diseñado específicamente para integrar hallazgos de campos heterogéneos (ingeniería, salud ocupacional, ética, educación) bajo un marco conceptual unificado. Se buscó trascender la simple revisión sistemática para alcanzar una síntesis holística que revelara patrones transversales.
 
-\subsection{Comparación de metodologías ágiles}
-Para seleccionar la metodología más apropiada, realizamos una evaluación multi-criterio de las principales metodologías ágiles. La \cref{fig:comparacion_metodologias} presenta los resultados de esta comparación.
+La elección se centró en diecisiete investigaciones clave (artículos de revista, capítulos de libro e informes técnicos de alto impacto) que cumplieran con criterios de:
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.45\textwidth]{graphics/comparacion_metodologias.pdf}
-    \caption{Comparación multi-criterio de metodologías ágiles: Scrum, Kanban y XP}
-    \label{fig:comparacion_metodologias}
-\end{figure}
+Pertinencia: Abordar directamente la relación entre la tecnología y el factor humano.
 
-\subsection{Datos e instrumentos}
-Recolectamos issues, \textit{pull requests}, \textit{pipelines} CI, cobertura de pruebas, defectos y métricas de calidad. Instrumentamos \textit{scripts} para extracción/limpieza en \texttt{code/} y tablas en \texttt{tables/}.
+Actualidad y Clasicismo: Incluir referencias recientes (∼2025) e hitos conceptuales (clásicos del software educativo o la ergonomía).
 
-Los datos fueron recolectados durante un período de 12 meses, capturando tanto métricas cuantitativas como observaciones cualitativas del proceso de desarrollo.
+Diversidad Temática: Cubrir los tres dominios críticos (técnico, humano y ético).
 
-\subsection{Procedimiento y validez}
-Detallamos fases, roles y \textit{checkpoints}. Evaluamos validez interna/externa/constructo/conclusión; documentamos mitigaciones de sesgo (p.ej., anonimización de datos, \textit{pre-registration} de métricas).
+El proceso metodológico se desarrolló rigurosamente en tres fases secuenciales:
 
-La metodología seleccionada (Scrum) mostró el mejor balance entre flexibilidad y velocidad de entrega, factores críticos para el contexto del proyecto.
+Fase 1: Revisión Profunda y Extracción de Contenidos Clave
+Cada artículo fue objeto de una lectura minuciosa. Se utilizó una matriz de análisis inicial para extraer sistemáticamente los siguientes datos:
+
+Objetivo Principal del estudio.
+
+Problemas Centrales que aborda (ej., fatiga visual, sesgo algorítmico, o deficiencia en el rendimiento del framework).
+
+Métodos Cuantitativos o Cualitativos utilizados (ej., pruebas de rendimiento, encuestas de percepción, análisis cualitativo asistido por software QDAS \cite{Costa2016}).
+
+Resultados y Conclusiones relevantes en el contexto de la calidad, el riesgo y el factor humano.
+
+Fase 2: Categorización Temática Inductiva (Codificación)
+Esta fase constituye el núcleo del rigor interpretativo. Utilizando técnicas de codificación propias de la investigación cualitativa (similares a la Teoría Fundamentada, como sugieren Costa et al. \cite{Costa2016}), los contenidos extraídos de la Fase 1 se agruparon de manera inductiva. Es decir, las categorías no fueron impuestas de antemano, sino que emergieron de los datos mismos, revelando una convergencia espontánea:
+
+Centralidad del Factor Humano: Incluye estudios sobre ergonomía, SVI \cite{Frometa2012}, privación de sueño \cite{Miro2005}, roles del desarrollador ante la IA \cite{Rivas2025}, y mediación pedagógica \cite{Ribas2008, MarquesSF}.
+
+Rigor Metodológico y Estandarización: Incluye la aplicación de normativas técnicas (ISO/IEC 25000), evaluación de interoperabilidad \cite{Bishop2005}, y la necesidad de automatización en grandes escalas \cite{Simmons2024}.
+
+Gestión de Riesgos Tecnológicos y Éticos: Incluye temáticas de vigilancia \cite{Garvie2024}, seguridad móvil \cite{Prieto2018}, sesgos algorítmicos y riesgos para la salud a largo plazo.
+
+Esta agrupación permitió comparar y contrastar artículos de diferentes disciplinas bajo un mismo marco conceptual de "calidad digital consciente".
+
+Fase 3: Síntesis Interpretativa Humanizada y Modelo Conceptual
+Finalmente, se elaboró una narrativa integradora que no solo resumió los hallazgos, sino que los interpretó desde una perspectiva humana, ética y estratégica. El objetivo fue construir un Modelo Interpretativo (que se detalla en la Implementación) donde los resultados técnicos se conectan con sus implicaciones de bienestar y ética.
+
+Esta síntesis permitió destacar los patrones comunes (la paradoja de la potenciación/vulneración) y construir una visión holística que sirve como fundamento teórico para futuros proyectos académicos interdisciplinarios.

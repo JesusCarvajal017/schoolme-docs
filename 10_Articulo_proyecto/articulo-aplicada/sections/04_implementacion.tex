@@ -1,50 +1,41 @@
-\section{Implementación del software}
-Describimos arquitectura, decisiones tecnológicas y \textit{pipelines}. Documentamos prácticas aplicadas: formateo, \textit{linting}, pruebas unitarias/integración, análisis estático (SAST), \textit{continuous delivery} y monitoreo. 
+\section{Implementación: Consolidación del Modelo Teórico y Aplicabilidad Estratégica}
+Dado que el presente trabajo es un artículo aplicado de revisión crítica y síntesis interpretativa, la implementación no consiste en el desarrollo de un software o un producto técnico tradicional. En cambio, su valor se materializa en la consolidación de un Modelo Teórico Holístico que traduce los hallazgos documentales en un marco conceptual coherente, útil y aplicable como base de diseño y evaluación para futuros proyectos académicos o tecnológicos.
 
-\subsection{Arquitectura del sistema}
-La arquitectura implementada sigue las mejores prácticas de DevOps \cite{forsgren2018accelerate}, integrando automatización en todo el ciclo de desarrollo. La \cref{fig:correlacion_devops} muestra la correlación observada entre el nivel de automatización y el rendimiento del equipo.
+Esta implementación se estructura en dos niveles fundamentales:
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.46\textwidth]{graphics/correlacion_devops.pdf}
-    \caption{Correlación entre nivel de automatización y performance del equipo de desarrollo}
-    \label{fig:correlacion_devops}
-\end{figure}
+1. Integración Conceptual: El Modelo de Madurez Digital Humanizada (MMDH)
+Se construyó un Modelo Interpretativo donde los diecisiete artículos revisados no se analizan de manera aislada, sino como piezas complementarias que definen un sistema de interdependencias. Este modelo permite comprender cómo interactúan y se influyen mutuamente las dimensiones críticas de cualquier desarrollo digital:
 
-\subsection{Fragmento de código}
-Ejemplo de implementación de una función con tipado estático:
+Bienestar Humano: (Ergonomía \cite{Frometa2012}, Privación del Sueño \cite{Miro2005}, Inclusión \cite{Pacheco2020}).
 
-\ifminted
-\begin{minted}[linenos]{python}
-def suma(a: int, b: int) -> int:
-    """Suma dos numeros enteros.
-    
-    Args:
-        a: Primer operando
-        b: Segundo operando
-        
-    Returns:
-        La suma de a y b
-    """
-    return a + b
-\end{minted}
-\else
-\begin{lstlisting}[language=Python]
-def suma(a: int, b: int) -> int:
-    """Suma dos numeros enteros.
-    
-    Args:
-        a: Primer operando
-        b: Segundo operando
-        
-    Returns:
-        La suma de a y b
-    """
-    return a + b
-\end{lstlisting}
-\fi
+Calidad Tecnológica: (Rigor metodológico, Estandarización ISO/IEC 25000 \cite{Espinosa2021}, Interoperabilidad \cite{Bishop2005}).
 
-\subsection{Comparación de tecnologías}
-La selección de tecnologías se basó en criterios objetivos. La \cref{tab:frameworks} presenta una comparación detallada de los frameworks evaluados.
+Ética y Estrategia: (Riesgos de Vigilancia \cite{Garvie2024}, Ciberseguridad \cite{Prieto2018}, Juicio en la aplicación de IA \cite{Gruber2024}).
 
-\input{tables/frameworks_comparison.tex}
+Este enfoque integrado permite a los investigadores y desarrolladores auditar sus proyectos bajo un único lente, reconociendo que un fallo en cualquiera de las tres dimensiones (por ejemplo, un fallo en la ergonomía) es, en esencia, un fallo en la calidad total del sistema.
+
+2. Aplicabilidad para Futuros Proyectos: Principios Rectores
+El documento final proporciona un conjunto de Principios Prácticos Rectores que orientan las decisiones técnicas y humanas en proyectos reales, asegurando que la tecnología se diseñe con conciencia estratégica. Estos principios son directamente aplicables a:
+
+Dominio de Aplicación
+Principios Prácticos Derivados
+
+Diseño de Software Ético
+Integrar el Principio de Privacidad por Defecto y realizar auditorías de Sesgo Algorítmico antes del despliegue (basado en hallazgos sobre Reconocimiento Facial \cite{Garvie2024}).
+
+Implementación de IA Responsable
+Utilizar la IA como herramienta de aumento cognitivo del desarrollador \cite{Rivas2025}, manteniendo siempre la supervisión y el juicio humano en las decisiones arquitectónicas y éticas.
+
+Mejoras Pedagógicas basadas en TIC
+Diseñar software educativo considerando la Mediación Pedagógica como un factor de éxito indispensable \cite{MarquesSF}, utilizando herramientas como los mapas conceptuales \cite{Alaminos2009} para fortalecer la comprensión significativa.
+
+Adaptación Ergonómica y Salud
+Incorporar requisitos ergonómicos y de salud visual (prevención de SVI \cite{Frometa2012}) en la fase de requisitos del software y no solo como ajustes posteriores.
+
+Elección de Arquitecturas y Frameworks
+Basar la selección tecnológica (ej., Laravel vs. Django \cite{Espinosa2021}) en Métricas de Calidad Objetivas (ISO/IEC 25000), no en preferencias subjetivas, y asegurar la interoperabilidad para la continuidad del negocio \cite{Bishop2005}.
+
+Estrategias de Seguridad y Riesgos
+Promover la formación digital del usuario para mitigar riesgos de ciberseguridad móvil \cite{Prieto2018} y establecer mecanismos de Automatización de Calidad (AQ) para reducir el riesgo sistémico en gigasistemas \cite{Simmons2024}.
+
+De esta forma, la implementación del análisis documental se convierte en una herramienta sólida y consciente para orientar decisiones complejas en el ecosistema digital, garantizando que el diseño y la adopción tecnológica estén alineados con el bienestar humano y los estándares de calidad.
