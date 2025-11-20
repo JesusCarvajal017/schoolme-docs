@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  10 NOV 2025 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  18 NOV 2025 16:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1870,10 +1870,10 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (build/main_acm.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 23.
+(babel)             Reported on input line 11.
 )
 \openout1 = `main_acm.aux'.
 
@@ -2046,137 +2046,124 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 31.
-(./sections/00_abstract.tex) (./sections/01_introduccion.tex) (./sections/02_re
-lacionados.tex) (./sections/03_metodologia.tex
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
+(./sections/00_abstract.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Class acmart Warning: A possible image without description on input line 13.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1.1
+
+]) (./sections/01_introduccion.tex
+Underfull \vbox (badness 2818) has occurred while \output is active []
+
+
+Overfull \hbox (1.04352pt too wide) in paragraph at lines 7--8
+[]\TU/LinLibertine(0)/m/n/9 Otros estudios han explorado dimensiones complement
+arias que
+ []
+
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 20.
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 20.
+[2.2]) (./sections/02_relacionados.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.6015pt too wide) in paragraph at lines 20--21
+[]\TU/LinLibertine(0)/m/n/9 La calidad del software y la documentación también 
+reciben aten-
+ []
+
+[3.3]
+Overfull \hbox (5.005pt too wide) in paragraph at lines 36--37
+[]\TU/LinLibertine(0)/m/n/9 Otros estudios profundizan en dimensiones más espec
+íficas. Khan
+ []
+
+) (./sections/03_metodologia.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4.4]) (./sections/04_implementacion.tex) (./sections/05_resultados.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5.5] [6.6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (7.95908pt too wide) in paragraph at lines 8--9
+\TU/LinLibertine(0)/m/n/9 integración con tecnologías emergentes, la fusión con
+ DevOps, Cloud
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[7.7]) (./sections/06_discusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8.8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./sections/07_conclusiones.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9.9]
+Overfull \hbox (3.89427pt too wide) in paragraph at lines 15--16
+[]\TU/LinLibertine(0)/m/n/9 La globalización del desarrollo también aporta conc
+lusiones, pues
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./sections/A1_apendices.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10.10]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `inconsolata' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (3.55005pt too wide) in paragraph at lines 16--17
-[]\TU/LinLibertine(0)/m/n/9 Recolectamos issues, \TU/LinLibertine(0)/m/it/9 pul
-l requests\TU/LinLibertine(0)/m/n/9 , \TU/LinLibertine(0)/m/it/9 pipelines \TU/
-LinLibertine(0)/m/n/9 CI, cobertura de prue-
- []
-
-[1.1
-
-]) (./sections/04_implementacion.tex
-Overfull \hbox (3.96474pt too wide) in paragraph at lines 2--3
-[]\TU/LinLibertine(0)/m/n/9 Describimos arquitectura, decisiones tecnológicas y
- \TU/LinLibertine(0)/m/it/9 pipelines\TU/LinLibertine(0)/m/n/9 . Do-
- []
-
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
-
-Class acmart Warning: A possible image without description on input line 12.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 33.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 33.
-(./tables/frameworks_comparison.tex
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 8.30396pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 6.22797pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.30469pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.22852pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 8.3031pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 6.22733pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 8.
-)) (./sections/05_resultados.tex
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
-
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 11--12
- [][] 
- []
-
-
-Class acmart Warning: A possible image without description on input line 14.
-
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
-
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 21--22
- [][] 
- []
-
-
-Class acmart Warning: A possible image without description on input line 24.
-
-LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 29.
-[2.2]) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex) (./sectio
-ns/A1_apendices.tex
 Overfull \hbox (2.15796pt too wide) in paragraph at lines 8--9
 []\TU/LinLibertine(0)/b/n/9 Resultados\TU/LinLibertine(0)/m/n/9 : tablas/figura
 s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
  []
 
 ) (build/main_acm.bbl
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 43.
-LaTeX Info: Redefining \tempurl on input line 102.
+
+Package natbib Warning: Empty `thebibliography' environment on input line 39.
+
 )
-
-Class acmart Warning: Some images may lack descriptions.
-(acmart)              ACM is committed to complying with the upcoming US ADA ht
-tps://accessiblyapp.com/accessibility-compliance/ada/ and European Accessibilit
-y Act (EAA) https://accessiblyapp.com/accessibility-compliance/eaa/ regulations
- by actively working to ensure our publications and application services are ac
-cessible to individuals with disabilities, adhering to the WCAG guidelines to p
-rovide a seamless experience for all users, and regularly reviewing our accessi
-bility practices to maintain compliance with evolving standards. 
-(acmart)              To this end, we strongly encourage our authors to provide
- alternative text and captions for images and multimedia content. It is also im
-portant to optimize color contrast for the visually impaired. Taking these impo
-rtant steps when creating your papers will ensure that the widest possible audi
-ence can ingest your work..
-
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+Overfull \vbox (1.92625pt too high) has occurred while \output is active []
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [3.3] (build/main_acm.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+) [11.11] (build/main_acm.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 )
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `main_acm.out' has not changed.
-(rerunfilecheck)             Checksum: 56701EE2706D216CDC9D789F72A3F575;3862.
+(rerunfilecheck)             Checksum: AC7E1774A41EFE17783A00CF2E1321A8;1716.
  ) 
 Here is how much of TeX's memory you used:
- 42011 strings out of 468179
- 857958 string characters out of 5435042
- 1562793 words of memory out of 5000000
- 70062 multiletter control sequences out of 15000+600000
- 636677 words of font info for 157 fonts, out of 8000000 for 9000
+ 41656 strings out of 468179
+ 850139 string characters out of 5435042
+ 1444168 words of memory out of 5000000
+ 69735 multiletter control sequences out of 15000+600000
+ 634456 words of font info for 137 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 105i,13n,131p,1005b,32914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,13n,131p,1779b,32922s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_acm.xdv (3 pages, 140208 bytes).
+Output written on build/main_acm.xdv (11 pages, 711188 bytes).

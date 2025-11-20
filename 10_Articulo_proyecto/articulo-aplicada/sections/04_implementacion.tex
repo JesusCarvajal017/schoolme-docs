@@ -1,50 +1,25 @@
 \section{Implementación del software}
-Describimos arquitectura, decisiones tecnológicas y \textit{pipelines}. Documentamos prácticas aplicadas: formateo, \textit{linting}, pruebas unitarias/integración, análisis estático (SAST), \textit{continuous delivery} y monitoreo. 
-
-\subsection{Arquitectura del sistema}
-La arquitectura implementada sigue las mejores prácticas de DevOps \cite{forsgren2018accelerate}, integrando automatización en todo el ciclo de desarrollo. La \cref{fig:correlacion_devops} muestra la correlación observada entre el nivel de automatización y el rendimiento del equipo.
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.46\textwidth]{graphics/correlacion_devops.pdf}
-    \caption{Correlación entre nivel de automatización y performance del equipo de desarrollo}
-    \label{fig:correlacion_devops}
-\end{figure}
-
-\subsection{Fragmento de código}
-Ejemplo de implementación de una función con tipado estático:
-
-\ifminted
-\begin{minted}[linenos]{python}
-def suma(a: int, b: int) -> int:
-    """Suma dos numeros enteros.
-    
-    Args:
-        a: Primer operando
-        b: Segundo operando
-        
-    Returns:
-        La suma de a y b
-    """
-    return a + b
-\end{minted}
-\else
-\begin{lstlisting}[language=Python]
-def suma(a: int, b: int) -> int:
-    """Suma dos numeros enteros.
-    
-    Args:
-        a: Primer operando
-        b: Segundo operando
-        
-    Returns:
-        La suma de a y b
-    """
-    return a + b
-\end{lstlisting}
-\fi
-
-\subsection{Comparación de tecnologías}
-La selección de tecnologías se basó en criterios objetivos. La \cref{tab:frameworks} presenta una comparación detallada de los frameworks evaluados.
-
-\input{tables/frameworks_comparison.tex}
+La implementación de los resultados obtenidos en esta investigación se plantea desde una perspectiva aplicada, orientada a mover los principios de las metodologías ágiles a contextos organizacionales reales. Con base en los hallazgos de los estudios analizados, se propone un modelo de adopción progresiva que combine la flexibilidad de Agile con la estructura necesaria para garantizar resultados sostenibles y de calidad.
+La aplicación práctica parte de la construcción de equipos que integren diversos roles (desarrolladores, líderes de proyecto, diseñadores, testers y representantes del cliente) bajo un esquema colaborativo inspirado en Scrum. Este modelo fomenta reuniones breves y periódicas (daily meetings), revisión de avances al final de cada ciclo (sprint review) y reflexión colectiva para mejorar procesos (retrospective). Esta dinámica permite ajustar el trabajo de acuerdo con los cambios en los requisitos o el entorno, garantizando una entrega constante de valor al cliente o usuario final.
+A su vez se plantea la incorporación de tableros visuales tipo Kanban como apoyo a la gestión de tareas y control de flujo de trabajo, siguiendo las recomendaciones de Moiseienko, Moiseienko y Lubentsova.Esto facilita la transparencia, la priorización de actividades y la detección temprana de cuellos de botella, reforzando la autonomía de los equipos.
+Para proyectos de mayor complejidad o distribuidos geográficamente, se sugiere integrar prácticas de automatización y despliegue continuo (CI/CD), tomando como referencia los aportes de Shriram (2025) y Solige (2025). Estas herramientas permiten optimizar los tiempos de entrega, reducir errores y mantener una calidad constante en cada versión del software. En esta misma línea, se recomienda la adopción de estrategias DevSecOps, en las que la seguridad se integre desde las primeras etapas del desarrollo asegurando una visión preventiva frente a las vulnerabilidades digitales.
+La implementación debe considerar un enfoque de mejora continua inspirado en Lean Six Sigma, como lo sugieren Jibgah et al. .Esto implica medir la eficiencia de los procesos, eliminar actividades innecesarias y promover la toma de decisiones basada en datos. En contextos organizacionales complejos, esta integración contribuye a equilibrar la rapidez de la agilidad con la precisión del control de calidad.
+Se recomienda la creación de una cultura organizacional ágil, apoyada en la capacitación constante, la comunicación transparente y el liderazgo participativo. El éxito de la implementación no depende solo de adoptar marcos de trabajo, sino de transformar la mentalidad de los equipos hacia una colaboración genuina.
+De esta manera, la aplicación de las metodologías ágiles, combinadas con prácticas modernas como DevOps y Lean Six Sigma, constituye una estrategia viable para elevar la eficiencia, la calidad y la capacidad de adaptación de los proyectos de software en entornos competitivos y cambiantes.
+La integración de todas las prácticas abordadas en las investigaciones se pueden imaginar como la construcción de un ecosistema de desarrollo moderno. No se trata de aplicar Scrum por un lado, DevOps por otro y automatización en un tercer espacio. La implementación real sucede cuando estos elementos se conectan de forma orgánica dentro del ciclo de trabajo.
+El punto de partida es Agile. Los equipos trabajan en iteraciones cortas, con revisiones frecuentes y una comunicación constante. Dentro de este marco se aplican roles claros como Product Owner, Scrum Master y desarrolladores. Este enfoque sirve como base para coordinar el trabajo.
+Luego aparecen las herramientas. Los tableros Kanban dan visibilidad al flujo, permiten identificar bloqueos y mejorar el ritmo general. La integración de DevOps aporta automatización, despliegues frecuentes y entornos más estables. Las plataformas en la nube permiten escalabilidad, replicación rápida y acceso remoto.
+Al mismo tiempo, la seguridad se integra desde el inicio a través de prácticas de DevSecOps, modelos de amenazas, revisiones de código y automatización de análisis estático. La documentación en pares ayuda a mantener claridad en los requisitos, especialmente cuando los proyectos cambian con rapidez. Y métodos como Lean Six Sigma introducen medición y reducción de defectos en momentos clave del ciclo.
+La implementación también requiere entender el factor humano. La colaboración, diversidad de pensamiento y distribución justa de tareas influyen directamente en los resultados. La cultura ágil solo funciona cuando los miembros del equipo se sienten escuchados, valorados y capaces de aportar.
+Los enfoques modernos como la lógica difusa ayudan a medir la agilidad de manera más realista, usando datos donde las percepciones suelen ser ambiguas. Todo esto forma un sistema en el que cada elemento refuerza a los demás.
+La puesta en marcha del marco integrado comienza cuando el equipo adopta prácticas que transforman su dinámica diaria y fortalecen la calidad del producto desde los primeros ciclos de trabajo. La implementación se desarrolla como un proceso vivo donde cada integrante participa en la construcción del flujo, la observación de sus efectos y la mejora continua.
+No se trata simplemente de organizar tareas en un tablero, sino de crear un ritmo que permita observar la evolución del producto sin distancia entre la intención y el resultado. En esta etapa los integrantes descubren cómo se comporta el flujo bajo presión real, cómo responden cuando aparece un bloqueo inesperado, qué tan rápido detectan inconsistencias en la definición de una historia, cuánto tardan en identificar una falla en el pipeline y qué ocurre cuando se ajusta la prioridad de una funcionalidad en pleno desarrollo. Este contacto directo con el ciclo ágil permite que el grupo entienda su capacidad auténtica, algo que no se logra con simulaciones teóricas.
+A medida que el equipo avanza, el tablero visual se convierte en el eje operativo. No funciona como un simple registro de tareas, sino como una representación del estado mental del proyecto. Cada columna revela la salud del flujo, pues concentra información sobre el avance, las dependencias, las tareas que requieren verificación, las pruebas automatizadas que deben ejecutarse o los análisis de seguridad que todavía no se completan. Cuando un elemento se estanca, el bloqueo se vuelve visible para todos y la conversación surge de forma natural. La transparencia que ofrece el tablero reduce la necesidad de reuniones prolongadas y evita confusiones sobre quién debe actuar ante un retraso o un fallo en el código.
+Mientras el equipo asimila esta dinámica, la automatización se introduce de manera gradual. Las primeras pruebas unitarias dan paso a evaluaciones más amplias que incluyen análisis estático, validaciones sobre rendimiento y pruebas end-to-end. A diferencia de otros enfoques donde la automatización se deja para etapas finales, aquí se integra desde el comienzo, lo que permite que cada cambio en el código produzca información inmediata. El equipo aprende a interpretar los resultados del pipeline como parte de su trabajo cotidiano. Cuando aparece un error, la conversación no gira en torno a culpables, sino sobre qué parte del flujo necesita refuerzo: si las pruebas están siendo demasiado permisivas, si el entorno de ejecución presenta inconsistencias o si el diseño inicial requiere ajustes.
+A la vez, la seguridad se incorpora al mismo ritmo que la automatización. La presencia de un Security Champion dentro del equipo facilita que las decisiones relevantes se tomen durante el desarrollo y no tras la entrega. La revisión del código, el análisis de dependencias, la identificación de vulnerabilidades y la preparación de modelos de amenazas se vuelven actividades naturales, integradas al avance del sprint. Esta práctica evita que la seguridad quede relegada a una fase de control externo, que suele generar retrasos y correcciones costosas. El equipo se acostumbra a trabajar con una visión preventiva, no reactiva, lo que incrementa la estabilidad del producto final.
+En la medida en que el proyecto crece, los entornos en la nube permiten replicar escenarios reales sin depender de configuraciones locales. La implementación utiliza infraestructuras que facilitan despliegues frecuentes, pruebas de carga y verificación de cambios sin afectar a los usuarios finales. La nube elimina discrepancias entre entornos, reduce fallos derivados de configuraciones manuales y acelera la validación de funcionalidades nuevas. Además, permite que el equipo trabaje con mayor autonomía, ya que no necesita solicitar recursos externos para probar un despliegue o verificar un comportamiento bajo condiciones reales.
+La interacción entre roles tiene un papel fundamental en esta implementación. El Product Owner mantiene un contacto constante con el equipo, aclara dudas, ajusta historias cuando surgen nuevos requisitos y ayuda a organizar la visión del producto. El Scrum Master se enfoca en eliminar barreras, garantizar que los integrantes tengan las herramientas necesarias y acompañar al equipo cuando surgen conflictos o malentendidos. Los desarrolladores rotan tareas para evitar que ciertas responsabilidades recaigan siempre en la misma persona. Este intercambio fortalece el conocimiento colectivo, reduce la dependencia de un solo especialista y distribuye la carga de trabajo de forma equilibrada. La presencia de distintos perfiles (incluyendo diversidad de género, experiencia y formación) enriquece la conversación y mejora la capacidad del equipo para evaluar soluciones desde ángulos distintos.
+La documentación se integra de manera constante mediante revisiones colaborativas. Dos miembros del equipo se unen para redactar, corregir y pulir los documentos esenciales del proyecto, lo que evita inconsistencias y malentendidos. Esta forma de trabajo disminuye los fallos derivados de descripciones ambiguas y mantiene el conocimiento distribuido entre todos. Los diagramas generados durante el proceso ayudan a aclarar la lógica de las funcionalidades complejas, evitando que el equipo implemente requisitos incompletos o contradictorios.
+Con el paso del tiempo, la implementación genera suficiente información para evaluar el avance del grupo. La medición no se limita a cuantificar tareas terminadas, sino que se enfoca en la forma en que el equipo construye y refina su flujo. Las métricas recopilan tiempos de ciclo, estabilidad del pipeline, defectos detectados en etapas tempranas, claridad de la documentación, efectividad de los despliegues y nivel de automatización alcanzado. Esta información permite comprender el estado real del proyecto y detectar áreas donde el equipo necesita apoyo adicional. Para evaluar crecimiento, se utiliza un modelo basado en lógica difusa que refleja la naturaleza cambiante del equipo. Este tipo de análisis representa mejor la realidad, porque capta matices que las métricas rígidas no alcanzan a mostrar.
+La implementación demuestra su valor cuando el equipo enfrenta cambios drásticos en prioridades, alcance o requisitos. La estructura integrada permite reorganizar el trabajo sin comprometer la calidad del producto. Las decisiones se apoyan en información confiable, lo que reduce la incertidumbre y evita improvisaciones. La agilidad no se convierte en excusa para apresurar desarrollos, sino en una forma de responder con orden a situaciones que antes habrían provocado retrasos considerables o interrupciones en el flujo.
+Con el paso de varios sprints, la organización observa una transformación en el equipo. La comunicación fluye sin obstáculos, los problemas se abordan de manera directa y las responsabilidades se reparten con equidad. La calidad del producto mejora gracias a la automatización, la seguridad integrada y la claridad en la documentación. Los despliegues se vuelven más frecuentes y estables, lo que incrementa la confianza del Product Owner y reduce la ansiedad que suele acompañar las entregas finales. El equipo empieza a comprender su ritmo natural, ajusta su capacidad de manera realista y mantiene un equilibrio entre velocidad y precisión

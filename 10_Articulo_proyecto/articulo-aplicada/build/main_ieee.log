@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  10 NOV 2025 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  18 NOV 2025 16:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -729,10 +729,10 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (build/main_ieee.aux
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 36.
+(babel)             Reported on input line 12.
 )
 \openout1 = `main_ieee.aux'.
 
@@ -890,63 +890,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./sections/00_abstract.tex) (./sections/01_introduccion.tex) (./sections/02_re
-lacionados.tex) (./sections/03_metodologia.tex
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
-[1
+(./sections/00_abstract.tex [1
 
 
-]) (./sections/04_implementacion.tex
-Underfull \hbox (badness 2310) in paragraph at lines 2--3
-\TU/lmr/m/it/10 pelines\TU/ptm/bx/it/10 . Documentamos prácticas aplicadas: for
-mateo,
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 2--3
-\TU/lmr/m/it/10 linting\TU/ptm/bx/it/10 , pruebas unitarias/integración, anális
-is estático
- []
-
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
-(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 33.
-(./tables/frameworks_comparison.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 6.
-
-Overfull \hbox (4.64706pt too wide) in paragraph at lines 6--19
- [][] 
- []
-
-)) (./sections/05_resultados.tex
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
-[2]) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex) (./sections
-/A1_apendices.tex
+]) (./sections/01_introduccion.tex [2]) (./sections/02_relacionados.tex [3]) (.
+/sections/03_metodologia.tex [4] [5]) (./sections/04_implementacion.tex) (./sec
+tions/05_resultados.tex [6] [7] [8]) (./sections/06_discusion.tex [9]) (./secti
+ons/07_conclusiones.tex [10] [11]) (./sections/A1_apendices.tex
 ** WARNING: Ignoring useless \section in Appendix (line 2).
 )
-Underfull \hbox (badness 1558) in paragraph at lines 36--36
-[]\TU/ptm/bx/it/10 M. Fowler y M. Foemmel, «  Continuous Integra-
- []
 
-
-Underfull \hbox (badness 1708) in paragraph at lines 36--36
-[]\TU/ptm/bx/it/10 K. Beck, \TU/lmr/m/it/10 Test-Driven Development: By Example
-\TU/ptm/bx/it/10 .
- []
-
-
-Underfull \hbox (badness 3108) in paragraph at lines 36--36
-[]\TU/ptm/bx/it/10 G. Fitzpatrick y M.[]A. Storey, «  The Risks of
- []
+LaTeX Warning: Empty bibliography on input line 35.
 
 
 ** Conference Paper **
@@ -959,10 +913,12 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (build/main_ieee.aux
-LaTeX Info: Redefining \sptext on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
+[12
+
+] (build/main_ieee.aux
+LaTeX Info: Redefining \sptext on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2025-11-01>
@@ -972,18 +928,18 @@ L3 programming layer <2025-10-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main_ieee.out' has not changed.
-(rerunfilecheck)             Checksum: 7955DE35C1F41EDC14F951C8C7E4A59B;3166.
+(rerunfilecheck)             Checksum: 804DF3C20E0F0DA41A61F289B1C6C919;1321.
 Package logreq Info: Writing requests to 'main_ieee.run.xml'.
 \openout1 = `main_ieee.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31919 strings out of 468179
- 675416 string characters out of 5435042
- 1621245 words of memory out of 5000000
- 60284 multiletter control sequences out of 15000+600000
- 632108 words of font info for 100 fonts, out of 8000000 for 9000
+ 31413 strings out of 468179
+ 665353 string characters out of 5435042
+ 1640133 words of memory out of 5000000
+ 59797 multiletter control sequences out of 15000+600000
+ 631180 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,13n,83p,1006b,4892s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,13n,83p,1780b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_ieee.xdv (3 pages, 110220 bytes).
+Output written on build/main_ieee.xdv (12 pages, 683164 bytes).
