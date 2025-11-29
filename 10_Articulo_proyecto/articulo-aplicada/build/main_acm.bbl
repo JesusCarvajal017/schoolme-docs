@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{0}
+\begin{thebibliography}{19}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -35,5 +35,235 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Aguayo et~al\mbox{.}(2025)]%
+        {Aguayo2025}
+\bibfield{author}{\bibinfo{person}{S.~O.~R. Aguayo}, \bibinfo{person}{P.~D.
+  Reyes}, \bibinfo{person}{J.~R.~H. Morales}, {and} \bibinfo{person}{R.~A.
+  Díaz}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Lógica difusa y el manifiesto ágil: Innovación
+  en la medición de agilidad en el desarrollo de software}.
+\newblock
+
+
+\bibitem[Cubillos~García(2025)]%
+        {CubillosGarcia2025}
+\bibfield{author}{\bibinfo{person}{S.~V. Cubillos~García}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Automatización de pruebas para el sector
+  Ecommerce de Corona. co: Pruebas Automatizadas en un Entorno B2C}}.
+\newblock \bibinfo{thesistype}{Master's\ thesis}.
+\newblock
+\newblock
+\shownote{Práctica empresarial}.
+
+
+\bibitem[El~Aouni et~al\mbox{.}(2025)]%
+        {ElAouni2025}
+\bibfield{author}{\bibinfo{person}{F. El~Aouni}, \bibinfo{person}{K. Moumane},
+  \bibinfo{person}{A. Idri}, \bibinfo{person}{M. Najib}, {and}
+  \bibinfo{person}{S.~U. Jan}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{A systematic literature review on Agile, Cloud, and
+  DevOps integration: Challenges, benefits}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{177} (\bibinfo{year}{2025}), \bibinfo{pages}{107569}.
+\newblock
+
+
+\bibitem[Jain(2025)]%
+        {Jain2025}
+\bibfield{author}{\bibinfo{person}{A. Jain}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{A Comparative Assessment of Agile Methodologies in
+  iOS and Android Development}.
+\newblock \bibinfo{journal}{\emph{International Journal of Technology,
+  Management and Humanities}} \bibinfo{volume}{11}, \bibinfo{number}{02}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{1--7}.
+\newblock
+
+
+\bibitem[Jawish et~al\mbox{.}({[n.\,d.]})]%
+        {JawishAlgorithm}
+\bibfield{author}{\bibinfo{person}{P. Jawish}, \bibinfo{person}{P. Evrard},
+  \bibinfo{person}{A. Lemerle}, \bibinfo{person}{A. Genin}, \bibinfo{person}{L.
+  Dergham}, {and} \bibinfo{person}{S. Lanfranchi}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \showarticletitle{Algorithm-Driven Development: A Proactive Approach
+  to Improving Software Quality and Reducing Defects}.
+\newblock \bibinfo{journal}{\emph{SSRN}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\newblock
+\shownote{Available at SSRN 5242955}.
+
+
+\bibitem[Jibgah et~al\mbox{.}(2025)]%
+        {Jibgah2025}
+\bibfield{author}{\bibinfo{person}{D. Jibgah}, \bibinfo{person}{T. Ananya},
+  \bibinfo{person}{B. Elly}, {and} \bibinfo{person}{S. Grace}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{The Integration of Agile Methodologies with Lean
+  Six Sigma in Software Engineering Projects}.
+\newblock  (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[Khan and Ali(2025)]%
+        {Khan2025}
+\bibfield{author}{\bibinfo{person}{M.~Z. Khan} {and} \bibinfo{person}{M.~L.
+  Ali}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{CHALLENGES \& OPPORTUNITIES OF ADOPTING DEVOPS IN
+  THE PMI CONTEXT}.
+\newblock \bibinfo{journal}{\emph{Contemporary Journal of Social Science
+  Review}} \bibinfo{volume}{3}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{1357--1365}.
+\newblock
+
+
+\bibitem[LS et~al\mbox{.}(2025)]%
+        {LS2025}
+\bibfield{author}{\bibinfo{person}{G. LS}, \bibinfo{person}{Y.~A. Baker
+  El-Ebiary}, \bibinfo{person}{B.~S. Rao}, \bibinfo{person}{R.~R. Rautrao},
+  \bibinfo{person}{T.~S. Mastan~Rao}, \bibinfo{person}{J.~V. Naga~Ramesh},
+  {and} \bibinfo{person}{O. Al-Omari}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Challenges and Solutions in Agile Software
+  Development: A Managerial Perspective on Implementation Practices}.
+\newblock \bibinfo{journal}{\emph{International Journal of Advanced Computer
+  Science \& Applications}} \bibinfo{volume}{16}, \bibinfo{number}{3}
+  (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[López Menéndez~de Jiménez({[n.\,d.]})]%
+        {LopezMenendezUnidad}
+\bibfield{author}{\bibinfo{person}{R.~E. López Menéndez~de Jiménez}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Unidad 1. Actividad 2.2}}.
+\newblock
+\urldef\tempurl%
+\url{http://fcaenlinea.unam.mx/anexos/1728/Unidad_1/u1_act2_2.pdf}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Universidad Nacional Autónoma de México, Facultad de Contaduría y
+  Administración}.
+
+
+\bibitem[Maidin et~al\mbox{.}(2025)]%
+        {Maidin2025}
+\bibfield{author}{\bibinfo{person}{S.~S. Maidin}, \bibinfo{person}{N. Yahya},
+  \bibinfo{person}{M.~A. bin Fauri~Fauzi}, {and} \bibinfo{person}{N.~S. A.~A.
+  Bakar}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Current and Future Trends for Sustainable Software
+  Development: Software Security in Agile and Hybrid Agile through Bibliometric
+  Analysis}.
+\newblock \bibinfo{journal}{\emph{Journal of Applied Data Sciences}}
+  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{311--324}.
+\newblock
+
+
+\bibitem[Malla(2025)]%
+        {PriyankaMalla2025}
+\bibfield{author}{\bibinfo{person}{Priyanka Malla}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Analyzing the impact of agile methodologies on
+  software quality and delivery speed: A comparative study}.
+\newblock \bibinfo{journal}{\emph{World Journal of Advanced Research and
+  Reviews}} \bibinfo{volume}{25}, \bibinfo{number}{01} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{1207--1216}.
+\newblock
+
+
+\bibitem[Moiseienko et~al\mbox{.}(2025)]%
+        {Moiseienko2025}
+\bibfield{author}{\bibinfo{person}{N. Moiseienko}, \bibinfo{person}{M.
+  Moiseienko}, {and} \bibinfo{person}{D. Lubentsova}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{A web-based Kanban application for enhancing agile
+  project management practices}. In \bibinfo{booktitle}{\emph{CEUR Workshop
+  Proceedings}}. \bibinfo{pages}{131--138}.
+\newblock
+
+
+\bibitem[Ok and Eniola(2025)]%
+        {Ok2025}
+\bibfield{author}{\bibinfo{person}{E. Ok} {and} \bibinfo{person}{J. Eniola}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Best Practices for Cybersecurity Risk Management in
+  Agile Software Development}.
+\newblock  (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[Qamar et~al\mbox{.}(2025)]%
+        {Qamar2025}
+\bibfield{author}{\bibinfo{person}{N. Qamar}, \bibinfo{person}{N. Sabahat},
+  {and} \bibinfo{person}{A. Mosavi}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Evaluating the Impact of Pair Documentation on
+  Requirements Quality in Agile Software Development}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}} (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[Reich and Reich(2025)]%
+        {Reich2025}
+\bibfield{author}{\bibinfo{person}{A. Reich} {and} \bibinfo{person}{N. Reich}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Scrum in Global Software Development: Challenges,
+  Risks, and Mitigation Strategies for Effective Project Management}.
+\newblock \bibinfo{journal}{\emph{Journal of Policy Options}}
+  \bibinfo{volume}{8}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{43--50}.
+\newblock
+
+
+\bibitem[Shriram(2025)]%
+        {Shriram2025}
+\bibfield{author}{\bibinfo{person}{Kartheek Medhavi~Penagamuri Shriram}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Engineering efficiency through CI/CD pipeline
+  optimization}.
+\newblock \bibinfo{journal}{\emph{International Journal of Science and Research
+  Archive}} \bibinfo{volume}{14}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{908--916}.
+\newblock
+\showISSN{2582-8185}
+
+
+\bibitem[Solige(2025)]%
+        {Solige2025}
+\bibfield{author}{\bibinfo{person}{Shashidhar Solige}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Automated testing in modern software development:
+  navigating challenges and opportunities}.
+\newblock \bibinfo{journal}{\emph{World Journal of Advanced Research and
+  Reviews}} \bibinfo{volume}{26}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{955--961}.
+\newblock
+\showISSN{2581-9615}
+
+
+\bibitem[Stray et~al\mbox{.}(2025)]%
+        {Stray2025}
+\bibfield{author}{\bibinfo{person}{V. Stray}, \bibinfo{person}{I. Stabell},
+  \bibinfo{person}{G.~E. Sæter}, \bibinfo{person}{A. Barbala}, {and}
+  \bibinfo{person}{Y. Lindsjørn}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Teamwork in agile software development: A
+  mixed-method study of gender diversity and collaboration dynamics}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{107840}.
+\newblock
+
+
+\bibitem[William(2025)]%
+        {William2025}
+\bibfield{author}{\bibinfo{person}{J.~R. William}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Evaluating the Effectiveness of Software
+  Development Methodologies in Modern Technology Ecosystems}.
+\newblock \bibinfo{journal}{\emph{ISCSITR-INTERNATIONAL JOURNAL OF COMPUTER
+  SCIENCE AND ENGINEERING}} \bibinfo{volume}{1}, \bibinfo{number}{1}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{8--12}.
+\newblock
+
 
 \end{thebibliography}

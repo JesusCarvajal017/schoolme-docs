@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  18 NOV 2025 16:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.10)  29 NOV 2025 04:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -867,25 +867,6 @@ Package biblatex Info: ... file 'main_ieee.bbl' found.
 (build/main_ieee.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 17.
-(/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -894,13 +875,46 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]) (./sections/01_introduccion.tex [2]) (./sections/02_relacionados.tex [3]) (.
-/sections/03_metodologia.tex [4] [5]) (./sections/04_implementacion.tex) (./sec
-tions/05_resultados.tex [6] [7] [8]) (./sections/06_discusion.tex [9]) (./secti
-ons/07_conclusiones.tex [10] [11]) (./sections/A1_apendices.tex
+/sections/03_metodologia.tex [4]
+File: graphics/grafica2.png Graphic file (type bmp)
+<graphics/grafica2.png>
+[5]) (./sections/04_implementacion.tex [6] [7]
+File: graphics/grafica5.png Graphic file (type bmp)
+<graphics/grafica5.png>
+) (./sections/05_resultados.tex [8]
+File: graphics/grafica6.png Graphic file (type bmp)
+<graphics/grafica6.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+File: graphics/grafica7.png Graphic file (type bmp)
+<graphics/grafica7.png>
+) (./sections/06_discusion.tex [10]) (./sections/07_conclusiones.tex [11]) (./s
+ections/A1_apendices.tex
 ** WARNING: Ignoring useless \section in Appendix (line 2).
 )
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 35.
+(/opt/texlive/texdir/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [12]
+Underfull \hbox (badness 2005) in paragraph at lines 36--36
+[]\TU/ptm/bx/it/10 A. Jain, «  A Comparative Assessment of Agile
+ []
 
-LaTeX Warning: Empty bibliography on input line 35.
+
+Underfull \hbox (badness 1424) in paragraph at lines 36--36
+[]\TU/ptm/bx/it/10 F. El Aouni, K. Moumane, A. Idri, M. Najib
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 36--36
+[]\TU/ptm/bx/it/10 M. Z. Khan y M. L. Ali, «  CHALLENGES &
+ []
 
 
 ** Conference Paper **
@@ -913,9 +927,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12
-
-] (build/main_ieee.aux
+[13] (build/main_ieee.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -928,18 +940,18 @@ L3 programming layer <2025-10-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main_ieee.out' has not changed.
-(rerunfilecheck)             Checksum: 804DF3C20E0F0DA41A61F289B1C6C919;1321.
+(rerunfilecheck)             Checksum: 4BDB91636A804B1040A814CC919AB26F;1321.
 Package logreq Info: Writing requests to 'main_ieee.run.xml'.
 \openout1 = `main_ieee.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31413 strings out of 468179
- 665353 string characters out of 5435042
- 1640133 words of memory out of 5000000
- 59797 multiletter control sequences out of 15000+600000
- 631180 words of font info for 95 fonts, out of 8000000 for 9000
+ 31684 strings out of 468179
+ 672523 string characters out of 5435042
+ 1593879 words of memory out of 5000000
+ 60072 multiletter control sequences out of 15000+600000
+ 628417 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,13n,83p,1780b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,8n,83p,1847b,5635s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_ieee.xdv (12 pages, 683164 bytes).
+Output written on build/main_ieee.xdv (13 pages, 747116 bytes).
