@@ -1,0 +1,251 @@
+@startuml
+title Dominio Completo - Entity
+
+package "Entity.Global" {
+  abstract class ABaseEntity {
+    +Id: int
+    +Status: int
+    +CreatedAt: DateTime?
+    +UpdatedAt: DateTime?
+    +DeleteAt: DateTime?
+  }
+}
+
+package "Entity.Security" {
+  class User {
+    +Photo: string
+    +Email: string
+    +Password: string
+    +PersonId: int
+  }
+  class Rol {
+    +Name: string
+    +Description: string
+  }
+  class Permission {
+    +Name: string
+    +Description: string
+  }
+  class Form {
+    +Name: string
+    +Description: string
+    +Path: string
+    +Order: int
+  }
+  class Module {
+    +Name: string
+    +Icon: string
+    +Path: string
+    +Order: int
+    +Description: string
+  }
+  class ModuleForm {
+    +ModuleId: int
+    +FormId: int
+  }
+  class RolFormPermission {
+    +RolId: int
+    +FormId: int
+    +PermissionId: int
+  }
+  class UserRol {
+    +UserId: int
+    +RolId: int
+  }
+  class Person {
+    +DocumentTypeId: int
+    +Identification: long
+    +FirstName: string
+    +SecondName: string
+    +LastName: string
+    +SecondLastName: string
+    +Phone: long
+    +Gender: GenderEnum
+    +Age: int
+  }
+
+  ABaseEntity <|-- User
+  ABaseEntity <|-- Rol
+  ABaseEntity <|-- Permission
+  ABaseEntity <|-- Form
+  ABaseEntity <|-- Module
+  ABaseEntity <|-- ModuleForm
+  ABaseEntity <|-- RolFormPermission
+  ABaseEntity <|-- UserRol
+  ABaseEntity <|-- Person
+
+  User ||--o{ UserRol
+  Rol  ||--o{ UserRol
+  Rol  ||--o{ RolFormPermission
+  Permission ||--o{ RolFormPermission
+  Form ||--o{ RolFormPermission
+  Module ||--o{ ModuleForm
+  Form ||--o{ ModuleForm
+  User --> Person
+}
+
+package "Entity.Business" {
+  class Student {
+    +PersonId: int
+    +GroupId: int?
+  }
+  class Teacher {
+    +PersonId: int
+  }
+  class Tutition {
+    +StudentId: int
+    +GradeId: int
+  }
+  class Question {
+    +Text: string
+    +TypeAnswerId: int
+  }
+  class QuestionOption {
+    +QuestionId: int
+    +Text: string
+    +Order: int
+  }
+  class StudentAnswer {
+    +AgendaDayStudentId: int
+    +QuestionId: int
+    +ValueText: string?
+    +ValueBool: bool?
+    +ValueNumber: decimal?
+    +ValueDate: DateTime?
+  }
+  class StudentAnswerOption {
+    +StudentAnswerId: int
+    +QuestionOptionId: int
+  }
+  class Agenda {
+    +Name: string
+    +Description: string
+  }
+  class AgendaDay {
+    +GroupId: int
+    +AgendaId: int
+    +Date: DateOnly
+    +OpenedAt: DateTime?
+    +ClosedAt: DateTime?
+  }
+  class AgendaDayStudent {
+    +AgendaDayId: int
+    +StudentsId: int
+    +AgendaDayStudentStatus: int
+    +CompletedAt: DateTime?
+  }
+  class TeacherObservation {
+    +TeacherId: int
+    +AgendaDayStudentId: int
+    +Text: string
+  }
+  class AcademicLoad {
+    +TeacherId: int
+    +SubjectId: int
+    +GroupId: int
+    +Days: int?
+  }
+  class GroupDirector {
+    +TeacherId: int
+    +GroupId: int
+  }
+  class Attendants {
+    +StudentId: int
+    +PersonId: int
+    +RelationShipTypeEnum: enum
+  }
+  class DataBasic {
+    +PersonId: int
+    +RhId: int
+    +Adress: string
+    +BrithDate: DateTime
+    +StratumStatus: int
+    +MaterialStatusId: int
+    +EpsId: int
+    +MunisipalityId: int
+  }
+  class CompositionAgendaQuestion {
+    +AgendaId: int
+    +QuestionId: int
+  }
+
+  ABaseEntity <|-- Student
+  ABaseEntity <|-- Teacher
+  ABaseEntity <|-- Tutition
+  ABaseEntity <|-- Question
+  ABaseEntity <|-- QuestionOption
+  ABaseEntity <|-- StudentAnswer
+  ABaseEntity <|-- StudentAnswerOption
+  ABaseEntity <|-- Agenda
+  ABaseEntity <|-- AgendaDay
+  ABaseEntity <|-- AgendaDayStudent
+  ABaseEntity <|-- TeacherObservation
+  ABaseEntity <|-- AcademicLoad
+  ABaseEntity <|-- GroupDirector
+  ABaseEntity <|-- Attendants
+  ABaseEntity <|-- DataBasic
+  ABaseEntity <|-- CompositionAgendaQuestion
+}
+
+package "Entity.Parameters" {
+  class Departament {
+    +Name: string
+  }
+  class Grade {
+    +Name: string
+  }
+  class Subject {
+    +Name: string
+  }
+  class Groups {
+    +Name: string
+    +GradeId: int
+    +AmountStudents: int
+    +AgendaId: int?
+  }
+  class DocumentType {
+    +Name: string
+    +Acronym: string
+  }
+  class Rh {
+    +Name: string
+  }
+  class Eps {
+    +Name: string
+  }
+  class Munisipality {
+    +Name: string
+    +DepartamentId: int
+  }
+  class MaterialStatus {
+    +Name: string
+  }
+  class TypeAnsware {
+    +Name: string
+    +Description: string?
+  }
+
+  ABaseEntity <|-- Departament
+  ABaseEntity <|-- Grade
+  ABaseEntity <|-- Subject
+  ABaseEntity <|-- Groups
+  ABaseEntity <|-- DocumentType
+  ABaseEntity <|-- Rh
+  ABaseEntity <|-- Eps
+  ABaseEntity <|-- Munisipality
+  ABaseEntity <|-- MaterialStatus
+  ABaseEntity <|-- TypeAnsware
+}
+
+package "Entity.Auditoria" {
+  class Auditoria {
+    +Id: int
+    +OperationType: string
+    +CommandText: string
+    +ParametersJson: string
+    +AffectedEntities: string
+    +DurationMs: long
+    +Timestamp: DateTime
+  }
+}
+@enduml

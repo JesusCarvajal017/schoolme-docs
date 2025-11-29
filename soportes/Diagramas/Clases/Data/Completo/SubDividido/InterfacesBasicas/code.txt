@@ -1,0 +1,33 @@
+@startuml
+title Data - Interfaces Básicas
+
+package "Data.Interfaces.Basic" {
+  interface "IInsert<T>" {
+    +InsertAsync(entity: T): Task<T>
+  }
+
+  interface "IUpdate<T>" {
+    +UpdateAsync(entity: T): Task<bool>
+  }
+
+  interface "IDelete" {
+    +DeleteAsync(id: int): Task<bool>
+  }
+
+  interface "IQueryById<T>" {
+    +QueryById(id: int): Task<T>
+  }
+
+  interface "IQueryAll<T>" {
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+  }
+
+  interface "IUpdatePartial<T>" {
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  interface "IDeleteLogical<T>" {
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+  }
+}
+@enduml

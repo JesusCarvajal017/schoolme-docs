@@ -1,0 +1,175 @@
+@startuml
+title Capa Web API - Controllers
+
+' =========================
+' Interfaces
+' =========================
+package "Web.Controllers.Interface" {
+  interface IGenericController<TDto, TEntity> {
+    +GetAll(): Task<IActionResult>
+    +GetById(id: int): Task<IActionResult>
+    +Create(dto: TDto): Task<IActionResult>
+    +Update(dto: TDto): Task<IActionResult>
+    +Delete(id: int): Task<IActionResult>
+    +DeleteLogical(id: int, status: int): Task<IActionResult>
+  }
+}
+
+' =========================
+' Abstract Base Controller
+' =========================
+package "Web.Controllers.Implements.Abstract" {
+  abstract class GenericController<TEntity, TReadDto, TWriteDto> {
+    -_querySvc: IQueryServices<TEntity, TReadDto>
+    -_cmdSvc: ICommandService<TEntity, TWriteDto>
+
+    +GetAll(status: int?): Task<IActionResult>
+    +GetById(id: int): Task<IActionResult>
+    +Create(dto: TWriteDto): Task<IActionResult>
+    +Update(dto: TWriteDto): Task<IActionResult>
+    +Delete(id: int): Task<IActionResult>
+    +DeleteLogica(id: int, status: int): Task<IActionResult>
+    +PartialUpdate(dto: TWriteDto): Task<IActionResult>
+  }
+
+  GenericController ..|> IGenericController
+}
+
+' =========================
+' Security Controllers
+' =========================
+package "Web.Controllers.Implements.Security" {
+  class FormController
+  class ModuleController
+  class ModuleFormController
+  class PermissionController
+  class PersonController {
+    -_servicesQuery: IQueryPersonServices
+    -_servicesCommand: ICommandPersonServices
+    +GetUserRolsById(personId: int): Task<IActionResult>
+    +Create(dto: PersonCompleteDto): Task<IActionResult>
+    +GetPersonBasic(personId: int): Task<IActionResult>
+    +UpdatePerson(personId: int, dto: PersonCompleteDto): Task<IActionResult>
+  }
+  class RolController
+  class RolFormPermissionController
+  class UserController {
+    -_services: ICommandUserServices
+    +Create(dto: UserDto): Task<IActionResult>
+    +CreateRemasted(dto: UserCreateDto): Task<IActionResult>
+    +Update(dto: UserDto): Task<IActionResult>
+    +UpdatePassword(dto: ChangePassword): Task<IActionResult>
+    +UpdatePhoto(dto: ChangePhotoDto): Task<IActionResult>
+  }
+  class UserRolController {
+    -_services: IQueryUserRolServices
+    +GetUserRolsById(IdUser: int): Task<IActionResult>
+  }
+}
+
+FormController --|> GenericController
+ModuleController --|> GenericController
+ModuleFormController --|> GenericController
+PermissionController --|> GenericController
+PersonController --|> GenericController
+RolController --|> GenericController
+RolFormPermissionController --|> GenericController
+UserController --|> GenericController
+UserRolController --|> GenericController
+
+' =========================
+' Parameters Controllers
+' =========================
+package "Web.Controllers.Implements.Parameters" {
+  class DepartamentController
+  class DocumentTypeController
+  class EpsController
+  class GradeController
+  class GroupsController
+  class MaterialStatusController
+  class MunicipalityController {
+    -_queryMunicipalityServices: IQueryMunicipalityServices
+    +GetUserRolsById(IdDepart: int): Task<IActionResult>
+  }
+  class RhController
+  class SubjectController
+  class TypeAnswareController
+}
+
+DepartamentController --|> GenericController
+DocumentTypeController --|> GenericController
+EpsController --|> GenericController
+GradeController --|> GenericController
+GroupsController --|> GenericController
+MaterialStatusController --|> GenericController
+MunicipalityController --|> GenericController
+RhController --|> GenericController
+SubjectController --|> GenericController
+TypeAnswareController --|> GenericController
+
+' =========================
+' Business Controllers
+' =========================
+package "Web.Controllers.Implements.Business" {
+  class AcademicLoadController {
+    -_queryAcLoadServices: IQueryAcLoadServices
+    +GetUserRolsById(techerId: int, status: int?): Task<IActionResult>
+  }
+  class AgendaController
+  class AgendaDayController
+  class AgendaDayStudentController
+  class AttendantsController
+  class CompsitionAgendaController
+  class DataBasicController
+  class GroupDirectorController
+  class QuestionController
+  class QuestionOptionController
+  class StudentAnswareController
+  class StudentAnswareOptionController
+  class StudentController
+  class TeacherController
+  class TeacherObservationController
+  class TutionController
+}
+
+AcademicLoadController --|> GenericController
+AgendaController --|> GenericController
+AgendaDayController --|> GenericController
+AgendaDayStudentController --|> GenericController
+AttendantsController --|> GenericController
+CompsitionAgendaController --|> GenericController
+DataBasicController --|> GenericController
+GroupDirectorController --|> GenericController
+QuestionController --|> GenericController
+QuestionOptionController --|> GenericController
+StudentAnswareController --|> GenericController
+StudentAnswareOptionController --|> GenericController
+StudentController --|> GenericController
+TeacherController --|> GenericController
+TeacherObservationController --|> GenericController
+TutionController --|> GenericController
+
+' =========================
+' Auth Controller
+' =========================
+package "Web.Controllers.Implements.Auth" {
+  class AuthController {
+    -_authBusiness: AuthBusiness
+    -_logger: ILogger
+    +ValidationUser(login: CredencialesDto): Task<IActionResult>
+  }
+}
+
+' =========================
+' View Controller
+' =========================
+package "Web.Controllers.Implements.View" {
+  class ViewController {
+    -_data: ViewData
+    -_logger: ILogger<ViewController>
+    +MenuServices(rolId: int): Task<IActionResult>
+    +CountRegisters(): Task<IActionResult>
+  }
+}
+
+@enduml

@@ -1,0 +1,157 @@
+@startuml
+title Capa Data - Persistencia (con métodos y atributos)
+
+' =========================
+' Interfaces Básicas
+' =========================
+package "Data.Interfaces.Basic" {
+  interface "IInsert<T>" {
+    +InsertAsync(entity: T): Task<T>
+  }
+
+  interface "IUpdate<T>" {
+    +UpdateAsync(entity: T): Task<bool>
+  }
+
+  interface "IDelete" {
+    +DeleteAsync(id: int): Task<bool>
+  }
+
+  interface "IQueryById<T>" {
+    +QueryById(id: int): Task<T>
+  }
+
+  interface "IQueryAll<T>" {
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+  }
+
+  interface "IUpdatePartial<T>" {
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  interface "IDeleteLogical<T>" {
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+  }
+}
+
+' =========================
+' Interfaces Agrupadas
+' =========================
+package "Data.Interfaces.Group" {
+  interface "IQuerys<T>" {
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+
+  interface "ICommands<T>" {
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+  }
+}
+
+"IQuerys<T>" -|> "IQueryAll<T>"
+"IQuerys<T>" -|> "IQueryById<T>"
+
+"ICommands<T>" -|> "IInsert<T>"
+"ICommands<T>" -|> "IUpdate<T>"
+"ICommands<T>" -|> "IDelete"
+"ICommands<T>" -|> "IUpdatePartial<T>"
+"ICommands<T>" -|> "IDeleteLogical<T>"
+
+' =========================
+' Interfaces Especializadas
+' =========================
+package "Data.Interfaces.Group.Querys" {
+  interface IQuerysAcademicLoad {
+    +QueryCargaAcademica(idTeacher: int, status: int?): Task<IEnumerable<AcademicLoad>>
+  }
+
+  interface IQuerysGroupDirector
+  interface IQuerysMunicipality {
+    +QueryMunicpalitysDepartaments(departementId: int): Task<IEnumerable<Munisipality>>
+  }
+  interface IQuerysPerson {
+    +QueryCompleteData(personId: int): Task<Person>
+  }
+  interface IQuerysUserRol {
+    +QueryUserRol(userId: int): Task<IEnumerable<UserRol>>
+  }
+}
+
+IQuerysAcademicLoad -|> "IQuerys<AcademicLoad>"
+IQuerysGroupDirector -|> "IQuerys<GroupDirector>"
+IQuerysMunicipality -|> "IQuerys<Munisipality>"
+IQuerysPerson -|> "IQuerys<Person>"
+IQuerysUserRol -|> "IQuerys<UserRol>"
+
+package "Data.Interfaces.Group.Commands" {
+  interface ICommanAcademicLoad
+  interface ICommandUser {
+    +UpdatePassword(current: ChangePassword): Task<bool>
+    +UpdatePhoto(current: ChangePhoto): Task<bool>
+  }
+  interface ICommanPerson {
+    +InsertComplete(current: Person): Task<Person>
+    +UpdateCompleteAsync(trackedEntity: Person): Task<Person>
+    +QueryByIdTrackedAsync(id: int): Task<Person?>
+  }
+}
+
+ICommanAcademicLoad -|> "ICommands<AcademicLoad>"
+ICommandUser -|> "ICommands<User>"
+ICommanPerson -|> "ICommands<Person>"
+
+' =========================
+' Clases Base
+' =========================
+package "Data.Implements.Base" {
+  abstract class "ABaseCommandData<T>" {
+    -_context: ApplicationDbContext
+    -_dbSet: DbSet<T>
+    -_logger: ILogger
+
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  abstract class "ABaseQuerysData<T>" {
+    -_context: ApplicationDbContext
+    -_dbSet: DbSet<T>
+    -_logger: ILogger
+
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+}
+
+"ABaseCommandData<T>" ..|> "ICommands<T>"
+"ABaseQuerysData<T>" ..|> "IQuerys<T>"
+
+' =========================
+' Clases Genéricas
+' =========================
+package "Data.Implements" {
+  class "GenericCommandsData<T>" {
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  class "GenericQuerysData<T>" {
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+}
+
+"ABaseCommandData<T>" <|-- "GenericCommandsData<T>"
+"ABaseQuerysData<T>" <|-- "GenericQuerysData<T>"
+
+@enduml

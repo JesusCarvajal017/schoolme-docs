@@ -1,0 +1,56 @@
+@startuml
+title Capa Business - Reglas de Negocio (según código real)
+
+package "Business.Interfaces" {
+  interface ICommandPersonServices {
+    +InsertComplete(person: Person): Task<Person>
+    +UpdateCompleteAsync(person: Person): Task<Person>
+    +QueryByIdTrackedAsync(id: int): Task<Person?>
+  }
+
+  interface IQueryPersonServices {
+    +QueryCompleteData(personId: int): Task<Person>
+  }
+
+  interface IQueryUserRolServices {
+    +QueryUserRol(userId: int): Task<IEnumerable<UserRol>>
+  }
+}
+
+package "Business.Implements.Abstract" {
+  abstract class "ABaseCommandsBusiness<T>" {
+    -_commands: ICommands<T>
+    -_logger: ILogger
+
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +DeleteLogicalAsync(id: int, status: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  abstract class "ABaseQuerysBusiness<T>" {
+    -_querys: IQuerys<T>
+    -_logger: ILogger
+
+    +QueryAllAsync(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+}
+
+"ABaseCommandsBusiness<T>" ..|> "ICommands<T>"
+"ABaseQuerysBusiness<T>" ..|> "IQuerys<T>"
+
+package "Business.Implements" {
+  class "BaseCommandsBusiness<T>"
+  class "BaseQueryBusiness<T>"
+  class AuthBusiness {
+    +Login(username: string, password: string): Task<User?>
+    +GenerateToken(user: User): string
+  }
+}
+
+"ABaseCommandsBusiness<T>" <|-- "BaseCommandsBusiness<T>"
+"ABaseQuerysBusiness<T>" <|-- "BaseQueryBusiness<T>"
+
+@enduml

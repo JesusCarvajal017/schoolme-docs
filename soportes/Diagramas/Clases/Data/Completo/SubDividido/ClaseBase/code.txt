@@ -1,0 +1,29 @@
+@startuml
+title Data - Clases Base
+
+package "Data.Implements.Base" {
+  abstract class "ABaseCommandData<T>" {
+    -_context: ApplicationDbContext
+    -_dbSet: DbSet<T>
+    -_logger: ILogger
+
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  abstract class "ABaseQuerysData<T>" {
+    -_context: ApplicationDbContext
+    -_dbSet: DbSet<T>
+    -_logger: ILogger
+
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+}
+
+"ABaseCommandData<T>" ..|> "ICommands<T>"
+"ABaseQuerysData<T>" ..|> "IQuerys<T>"
+@enduml

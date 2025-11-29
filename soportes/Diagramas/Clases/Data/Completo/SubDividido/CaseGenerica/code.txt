@@ -1,0 +1,21 @@
+@startuml
+title Data - Clases Genéricas
+
+package "Data.Implements" {
+  class "GenericCommandsData<T>" {
+    +InsertAsync(entity: T): Task<T>
+    +UpdateAsync(entity: T): Task<bool>
+    +DeleteAsync(id: int): Task<bool>
+    +DeleteLogicalAsyn(id: int, status: int): Task<bool>
+    +UpdatePartialAsync(entity: T): Task<T?>
+  }
+
+  class "GenericQuerysData<T>" {
+    +QueryAllAsyn(status: int?): Task<IEnumerable<T>>
+    +QueryById(id: int): Task<T>
+  }
+}
+
+"ABaseCommandData<T>" <|-- "GenericCommandsData<T>"
+"ABaseQuerysData<T>" <|-- "GenericQuerysData<T>"
+@enduml
