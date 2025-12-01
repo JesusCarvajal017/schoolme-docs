@@ -1,9 +1,56 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'build/main_ieee.blg'
-[146] biber:342> INFO - === Thu Nov 20, 2025, 08:30:00
-[183] Biber.pm:421> INFO - Reading 'build/main_ieee.bcf'
-[275] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[298] bbl.pm:676> INFO - Writing 'build/main_ieee.bbl' with encoding 'UTF-8'
-[299] bbl.pm:779> INFO - Output to build/main_ieee.bbl
-[301] Biber.pm:132> WARN - The file 'build/main_ieee.bcf' does not contain any citations!
-[303] Biber.pm:134> INFO - WARNINGS: 1
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_ieee.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibliography/references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 27 entries,
+            4087 wiz_defined-function locations,
+            984 strings with 11371 characters,
+and the built_in function-call counts, 17202 in all, are:
+= -- 1431
+> -- 366
+< -- 130
++ -- 191
+- -- 64
+* -- 790
+:= -- 2749
+add.period$ -- 55
+call.type$ -- 27
+change.case$ -- 29
+chr.to.int$ -- 276
+cite$ -- 27
+duplicate$ -- 1276
+empty$ -- 1384
+format.name$ -- 82
+if$ -- 3952
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 227
+newline$ -- 104
+num.names$ -- 29
+pop$ -- 511
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1346
+stack$ -- 0
+substring$ -- 673
+swap$ -- 996
+text.length$ -- 38
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 27
+warning$ -- 0
+while$ -- 84
+width$ -- 29
+write$ -- 274

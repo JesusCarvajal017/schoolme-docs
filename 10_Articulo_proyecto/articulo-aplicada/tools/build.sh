@@ -5,16 +5,16 @@ export PATH="/opt/texlive/bin:$PATH"
 
 mkdir -p build
 
-# Compile IEEE (biblatex + biber)
+# Compile IEEE (BibTeX)
 echo "[build] Compiling IEEE"
-latexmk -silent -file-line-error -outdir=build -xelatex main_ieee.tex
+latexmk -g -f -silent -file-line-error -outdir=build -bibtex -xelatex main_ieee.tex
 
 # Compile ACM (BibTeX)
 echo "[build] Compiling ACM"
-latexmk -silent -file-line-error -outdir=build -bibtex -xelatex main_acm.tex
+latexmk -g -f -silent -file-line-error -outdir=build -bibtex -xelatex main_acm.tex
 
 # Compile APA7 (biblatex + biber)
 echo "[build] Compiling APA7"
-latexmk -silent -file-line-error -outdir=build -xelatex main_apa7.tex
+latexmk -g -f -silent -file-line-error -outdir=build -xelatex main_apa7.tex
 
 echo "[build] PDFs available in build/"

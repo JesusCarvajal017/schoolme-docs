@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.20)  20 NOV 2025 08:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.30)  1 DEC 2025 00:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **main_apa7.tex
 (./main_apa7.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
 (/opt/texlive/texdir/texmf-dist/tex/latex/apa7/apa7.cls
 Document Class: apa7 2022/07/25 v2.16 APA formatting (7th edition)
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
@@ -629,7 +629,7 @@ d (jdm)
 \@ef@fffopen=\count335
 )) (./includes/preamble_common.tex (/opt/texlive/texdir/texmf-dist/tex/generic/
 babel/babel.sty
-Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count336
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -670,7 +670,7 @@ LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty (/opt/texlive/t
 exdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/opt/texlive/texdir/te
 xmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-11-06 L3 programming layer (loader) 
+Package: expl3 2025-11-14 L3 programming layer (loader) 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count339
@@ -832,21 +832,21 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 \lst@lineno=\count384
 \lst@maxwidth=\dimen313
 (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2025/11/14 1.11a (Carsten Heinz)
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11a (Carsten Heinz)
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count385
 \lst@skipnumbers=\count386
 \lst@framebox=\box80
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2025/11/14 1.11a listings configuration
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2025/11/14 1.11a (Carsten Heinz)
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
 ==> First Aid for listings.sty no longer applied!
     Expected:
         2024/09/23 1.10c (Carsten Heinz)
     but found:
-        2025/11/14 1.11a (Carsten Heinz)
+        2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 ) (./includes/preamble_apa7.tex (/opt/texlive/texdir/texmf-dist/tex/latex/bibla
 tex/biblatex.sty
@@ -1099,7 +1099,7 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-11-06 L3 programming layer (loader) 
+(biblatex)             2025-11-14 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
@@ -1247,65 +1247,13 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 
 ] (./sections/00_abstract.tex
 
-LaTeX Warning: Citation 'Rivas2025' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Tolosa2014' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 2 undefined on input line 12.
-
-
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
 (fancyhdr)                \setlength{\headheight}{15.21004pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[2]
-
-LaTeX Warning: Citation 'Garvie2024' on page 3 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 3 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 3 undefined on input line 18.
-
-)
+[2])
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1314,33 +1262,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [3] (./sections/01_introduccion.tex
-
-LaTeX Warning: Citation 'Rivas2025' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Tolosa2014' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 4 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 4 undefined on input line 11.
-
+File: tables/output.png Graphic file (type bmp)
+<tables/output.png>
+File: tables/output 2.png Graphic file (type bmp)
+<tables/output 2.png>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1349,13 +1274,12 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [4]
-
-LaTeX Warning: Citation 'Garvie2024' on page 5 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 5 undefined on input line 13.
-
-) (./sections/02_relacionados.tex
+File: tables/output 3.png Graphic file (type bmp)
+<tables/output 3.png>
+File: tables/output 4.png Graphic file (type bmp)
+<tables/output 4.png>
+File: tables/output 4.1.png Graphic file (type bmp)
+<tables/output 4.1.png>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1364,118 +1288,39 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [5]
+File: tables/output 5.png Graphic file (type bmp)
+<tables/output 5.png>
+File: tables/output 6.png Graphic file (type bmp)
+<tables/output 6.png>
 
-LaTeX Warning: Citation 'Prieto2018' on page 6 undefined on input line 7.
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[6]) (./sections/02_relacionados.tex
+File: tables/Estado del Arte - Factor Humano.png Graphic file (type bmp)
+<tables/Estado del Arte - Factor Humano.png>
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[7]
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
 
-LaTeX Warning: Citation 'Frometa2012' on page 6 undefined on input line 9.
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-
-LaTeX Warning: Citation 'Miro2005' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 6 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 6 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Tolosa2014' on page 6 undefined on input line 16.
-
-
+[8]) (./sections/03_metodologia.tex
 Underfull \vbox (badness 1406) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[6]
-
-LaTeX Warning: Citation 'Bishop2005' on page 7 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 7 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 7 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Alaminos2009' on page 7 undefined on input line 29.
-
-
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[7]) (./sections/03_metodologia.tex
-Missing character: There is no ∼ (U+223C) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-LaTeX Warning: Citation 'Costa2016' on page 8 undefined on input line 21.
-
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[8]
-
-LaTeX Warning: Citation 'Costa2016' on page 9 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 9 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 9 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 9 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 9 undefined on input line 32.
-
-) (./sections/04_implementacion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1485,30 +1330,18 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [9]
-
-LaTeX Warning: Citation 'Frometa2012' on page 10 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 10 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 10 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 10 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 10 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 10 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 10 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 10 undefined on input line 13.
-
+File: tables/Distribución Temática del Texto de Investigación.png Graphic file 
+(type bmp)
+<tables/Distribución Temática del Texto de Investigación.png>
+File: tables/Metodología_ Tendencia con Bandas de Desviación.png Graphic file (
+type bmp)
+<tables/Metodología_ Tendencia con Bandas de Desviación.png>
+File: tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png Graphic file
+ (type bmp)
+<tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png>
+File: tables/Modelo MMDH_ Variación de Contribución por Dimensión.png Graphic f
+ile (type bmp)
+<tables/Modelo MMDH_ Variación de Contribución por Dimensión.png>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1517,36 +1350,8 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [10]
-
-LaTeX Warning: Citation 'Garvie2024' on page 11 undefined on input line 24.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 11 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 11 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Alaminos2009' on page 11 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 11 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 11 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 11 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 11 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 11 undefined on input line 39.
-
-) (./sections/05_resultados.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Missing character: There is no ∼ (U+223C) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1554,25 +1359,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[11]
-
-LaTeX Warning: Citation 'Rivas2025' on page 12 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 12 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 12 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 12 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 12 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 12 undefined on input line 16.
-
+[11]) (./sections/04_implementacion.tex
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1582,47 +1369,16 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 
 [12]
 
-LaTeX Warning: Citation 'Simmons2024' on page 13 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Costa2016' on page 13 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 13 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 13 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 13 undefined on input line 27.
-
-) (./sections/06_discusion.tex
-
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
 (fancyhdr)                \setlength{\headheight}{15.21004pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[13]
-
-LaTeX Warning: Citation 'Espinosa2021' on page 14 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 14 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 14 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 14 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 14 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 14 undefined on input line 11.
-
+[13]) (./sections/05_resultados.tex
+File: tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.
+png Graphic file (type bmp)
+<tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.png>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1631,16 +1387,8 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [14]
+Underfull \vbox (badness 1406) has occurred while \output is active []
 
-LaTeX Warning: Citation 'Garvie2024' on page 15 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 15 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 15 undefined on input line 20.
-
-) (./sections/07_conclusiones.tex
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1648,31 +1396,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[15]
-
-LaTeX Warning: Citation 'Rivas2025' on page 16 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 16 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 16 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 16 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 16 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 16 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 16 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 16 undefined on input line 22.
-
+[15]) (./sections/06_discusion.tex
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1681,13 +1405,15 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [16]
-
-LaTeX Warning: Citation 'Garvie2024' on page 17 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 17 undefined on input line 27.
-
-) (./sections/A1_apendices.tex
+File: tables/La Paradoja de la Potenciación y la Tensión Ética.png Graphic file
+ (type bmp)
+<tables/La Paradoja de la Potenciación y la Tensión Ética.png>
+File: tables/Discusión_ Intensidad Conceptual de los Subtemas.png Graphic file 
+(type bmp)
+<tables/Discusión_ Intensidad Conceptual de los Subtemas.png>
+File: tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png Graphic fi
+le (type bmp)
+<tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1696,6 +1422,56 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [17]
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[18]) (./sections/07_conclusiones.tex
+File: tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectore
+s (1).png Graphic file (type bmp)
+<tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores (1)
+.png>
+File: tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectore
+s.png Graphic file (type bmp)
+<tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores.png
+>
+File: tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.
+png Graphic file (type bmp)
+<tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[20]) (./sections/A1_apendices.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[21]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 5.
 (/opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1739,12 +1515,6 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no è ("E8) in font lmex10!
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
 tex-text;!
-
-LaTeX Warning: Citation 'Espinosa2021' on page 18 undefined on input line 19.
-
-
-LaTeX Warning: Citation 'Tolosa2014' on page 18 undefined on input line 19.
-
 
 ./sections/A1_apendices.tex:23: LaTeX Error: Environment axis undefined.
 
@@ -2104,6 +1874,14 @@ or  <return>  to continue without it.
 
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
 tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[22]
 ./sections/A1_apendices.tex:45: Argument of \language@active@arg> has an extra 
 }.
 <inserted text> 
@@ -2403,15 +2181,6 @@ Missing character: There is no / ("2F) in font nullfont!
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
 tex-text;!
 
-LaTeX Warning: Citation 'Garvie2024' on page 18 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 18 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 18 undefined on input line 52.
-
-
 ./sections/A1_apendices.tex:56: LaTeX Error: Environment axis undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2622,14 +2391,6 @@ or  <return>  to continue without it.
 
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman12-regular]:mapping=
 tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[18]
 ./sections/A1_apendices.tex:76: Argument of \language@active@arg> has an extra 
 }.
 <inserted text> 
@@ -2704,11 +2465,6 @@ My plan is to forget the whole thing and hope for the best.
 
 Missing character: There is no / ("2F) in font nullfont!
 Missing character: There is no / ("2F) in font nullfont!
-)
-
-LaTeX Warning: Empty bibliography on input line 28.
-
-AED endfloat: Processing end Figures and Tables
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2716,42 +2472,78 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[19] (build/main_apa7.aux
+[23]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[25])
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[27
+
+]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[28] AED endfloat: Processing end Figures and Tables
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[29] (build/main_apa7.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
  ***********
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `main_apa7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main_apa7.out':
-(rerunfilecheck)             Before: 908E187CF840FA54222F8A38057A5C7D;1267
-(rerunfilecheck)             After:  925715FE3EC878382B1E9E9AE27B9881;3533.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main_apa7
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main_apa7.out' has not changed.
+(rerunfilecheck)             Checksum: CB8A801EC42E6E1BB2F60F6C33107A7B;3551.
 Package logreq Info: Writing requests to 'main_apa7.run.xml'.
 \openout1 = `main_apa7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43363 strings out of 468179
- 919738 string characters out of 5435042
- 1879008 words of memory out of 5000000
- 71524 multiletter control sequences out of 15000+600000
+ 43822 strings out of 468179
+ 936702 string characters out of 5435042
+ 1884946 words of memory out of 5000000
+ 71963 multiletter control sequences out of 15000+600000
  652939 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,118p,1006b,4557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1006b,5674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_apa7.xdv (19 pages, 351580 bytes).
+Output written on build/main_apa7.xdv (29 pages, 485760 bytes).

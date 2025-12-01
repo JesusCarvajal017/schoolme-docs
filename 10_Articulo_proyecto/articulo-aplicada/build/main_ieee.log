@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.20)  20 NOV 2025 08:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.30)  1 DEC 2025 00:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **main_ieee.tex
 (./main_ieee.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
 (/opt/texlive/texdir/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -82,7 +82,7 @@ LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
 \@IEEEtranrubishbin=\box54
 ) (./includes/preamble_common.tex (/opt/texlive/texdir/texmf-dist/tex/generic/b
 abel/babel.sty
-Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count286
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -125,7 +125,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty (/opt/texlive
 /texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/opt/texlive/texdir/
 texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-11-06 L3 programming layer (loader) 
+Package: expl3 2025-11-14 L3 programming layer (loader) 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count289
@@ -475,269 +475,39 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 \lst@lineno=\count354
 \lst@maxwidth=\dimen272
 (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2025/11/14 1.11a (Carsten Heinz)
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11a (Carsten Heinz)
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count355
 \lst@skipnumbers=\count356
 \lst@framebox=\box69
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2025/11/14 1.11a listings configuration
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2025/11/14 1.11a (Carsten Heinz)
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
 ==> First Aid for listings.sty no longer applied!
     Expected:
         2024/09/23 1.10c (Carsten Heinz)
     but found:
-        2025/11/14 1.11a (Carsten Heinz)
+        2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-) (./includes/preamble_ieee.tex (/opt/texlive/texdir/texmf-dist/tex/latex/bibla
-tex/biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
-(/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count357
-(/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count358
-\c@listtotal=\count359
-\c@listcount=\count360
-\c@liststart=\count361
-\c@liststop=\count362
-\c@citecount=\count363
-\c@citetotal=\count364
-\c@multicitecount=\count365
-\c@multicitetotal=\count366
-\c@instcount=\count367
-\c@maxnames=\count368
-\c@minnames=\count369
-\c@maxitems=\count370
-\c@minitems=\count371
-\c@citecounter=\count372
-\c@maxcitecounter=\count373
-\c@savedcitecounter=\count374
-\c@uniquelist=\count375
-\c@uniquename=\count376
-\c@refsection=\count377
-\c@refsegment=\count378
-\c@maxextratitle=\count379
-\c@maxextratitleyear=\count380
-\c@maxextraname=\count381
-\c@maxextradate=\count382
-\c@maxextraalpha=\count383
-\c@abbrvpenalty=\count384
-\c@highnamepenalty=\count385
-\c@lownamepenalty=\count386
-\c@maxparens=\count387
-\c@parenlevel=\count388
-\blx@tempcnta=\count389
-\blx@tempcntb=\count390
-\blx@tempcntc=\count391
-\c@blx@maxsection=\count392
-\blx@maxsegment@0=\count393
-\blx@notetype=\count394
-\blx@parenlevel@text=\count395
-\blx@parenlevel@foot=\count396
-\blx@sectionciteorder@0=\count397
-\blx@sectionciteorderinternal@0=\count398
-\blx@entrysetcounter=\count399
-\blx@biblioinstance=\count400
-\labelnumberwidth=\skip57
-\labelalphawidth=\skip58
-\biblabelsep=\skip59
-\bibitemsep=\skip60
-\bibnamesep=\skip61
-\bibinitsep=\skip62
-\bibparsep=\skip63
-\bibhang=\skip64
-\blx@bcfin=\read3
-\blx@bcfout=\write3
-\blx@langwohyphens=\language91
-\c@mincomprange=\count401
-\c@maxcomprange=\count402
-\c@mincompwidth=\count403
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count404
-\c@savedafterword=\count405
-\c@annotator=\count406
-\c@savedannotator=\count407
-\c@author=\count408
-\c@savedauthor=\count409
-\c@bookauthor=\count410
-\c@savedbookauthor=\count411
-\c@commentator=\count412
-\c@savedcommentator=\count413
-\c@editor=\count414
-\c@savededitor=\count415
-\c@editora=\count416
-\c@savededitora=\count417
-\c@editorb=\count418
-\c@savededitorb=\count419
-\c@editorc=\count420
-\c@savededitorc=\count421
-\c@foreword=\count422
-\c@savedforeword=\count423
-\c@holder=\count424
-\c@savedholder=\count425
-\c@introduction=\count426
-\c@savedintroduction=\count427
-\c@namea=\count428
-\c@savednamea=\count429
-\c@nameb=\count430
-\c@savednameb=\count431
-\c@namec=\count432
-\c@savednamec=\count433
-\c@translator=\count434
-\c@savedtranslator=\count435
-\c@shortauthor=\count436
-\c@savedshortauthor=\count437
-\c@shorteditor=\count438
-\c@savedshorteditor=\count439
-\c@labelname=\count440
-\c@savedlabelname=\count441
-\c@institution=\count442
-\c@savedinstitution=\count443
-\c@lista=\count444
-\c@savedlista=\count445
-\c@listb=\count446
-\c@savedlistb=\count447
-\c@listc=\count448
-\c@savedlistc=\count449
-\c@listd=\count450
-\c@savedlistd=\count451
-\c@liste=\count452
-\c@savedliste=\count453
-\c@listf=\count454
-\c@savedlistf=\count455
-\c@location=\count456
-\c@savedlocation=\count457
-\c@organization=\count458
-\c@savedorganization=\count459
-\c@origlocation=\count460
-\c@savedoriglocation=\count461
-\c@origpublisher=\count462
-\c@savedorigpublisher=\count463
-\c@publisher=\count464
-\c@savedpublisher=\count465
-\c@language=\count466
-\c@savedlanguage=\count467
-\c@origlanguage=\count468
-\c@savedoriglanguage=\count469
-\c@pageref=\count470
-\c@savedpageref=\count471
-\shorthandwidth=\skip65
-\shortjournalwidth=\skip66
-\shortserieswidth=\skip67
-\shorttitlewidth=\skip68
-\shortauthorwidth=\skip69
-\shorteditorwidth=\skip70
-\locallabelnumberwidth=\skip71
-\locallabelalphawidth=\skip72
-\localshorthandwidth=\skip73
-\localshortjournalwidth=\skip74
-\localshortserieswidth=\skip75
-\localshorttitlewidth=\skip76
-\localshortauthorwidth=\skip77
-\localshorteditorwidth=\skip78
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count472
-\c@textcitetotal=\count473
-\c@textcitemaxnames=\count474
-\c@biburlbigbreakpenalty=\count475
-\c@biburlbreakpenalty=\count476
-\c@biburlnumpenalty=\count477
-\c@biburlucpenalty=\count478
-\c@biburllcpenalty=\count479
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count480
-)
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count481
-\c@bbx:relatedtotal=\count482
-))))
-Package biblatex Info: Trying to load citation style 'ieee'...
-Package biblatex Info: ... file 'ieee.cbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric-verb'...
-Package biblatex Info: ... file 'numeric-verb.cbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/cbx/numeric-verb.cbx
-File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-Package biblatex Info: Redefining '\textcites'.
+) (./includes/preamble_ieee.tex (/opt/texlive/texdir/texmf-dist/tex/latex/natbi
+b/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count357
 ))
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2025-11-06 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (build/main_ieee.aux
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 46.
+(babel)             Reported on input line 24.
 )
 \openout1 = `main_ieee.aux'.
 
@@ -852,375 +622,599 @@ Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `spanish'. on input line 6.
 Package hyperref Info: Link coloring OFF on input line 6.
 (build/main_ieee.out) (build/main_ieee.out)
-\@outlinefile=\write4
-\openout4 = `main_ieee.out'.
+\@outlinefile=\write3
+\openout3 = `main_ieee.out'.
 
-\c@lstlisting=\count483
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-(/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main_ieee.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main_ieee.bbl' found.
-(build/main_ieee.bbl)
-Package biblatex Info: Reference section=0 on input line 6.
-Package biblatex Info: Reference segment=0 on input line 6.
+\c@lstlisting=\count358
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 (./sections/00_abstract.tex
 
-LaTeX Warning: Citation 'Rivas2025' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+2.
 
 
-LaTeX Warning: Citation 'Gruber2024' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 2.
 
 
-LaTeX Warning: Citation 'Ribas2008' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `Ribas2008' on page 1 undefined on input line 
+2.
 
 
-LaTeX Warning: Citation 'MarquesSF' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `MarquesSF' on page 1 undefined on input line 
+2.
 
 
-LaTeX Warning: Citation 'Simmons2024' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `Simmons2024' on page 1 undefined on input lin
+e 2.
 
 
-LaTeX Warning: Citation 'Espinosa2021' on page 1 undefined on input line 2.
+Package natbib Warning: Citation `Espinosa2021' on page 1 undefined on input li
+ne 2.
 
 
-LaTeX Warning: Citation 'Rivas2025' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+7.
 
 
-LaTeX Warning: Citation 'Gruber2024' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 7.
 
 
-LaTeX Warning: Citation 'Frometa2012' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Frometa2012' on page 1 undefined on input lin
+e 7.
 
 
-LaTeX Warning: Citation 'Bishop2005' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Bishop2005' on page 1 undefined on input line
+ 7.
 
 
-LaTeX Warning: Citation 'Espinosa2021' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Espinosa2021' on page 1 undefined on input li
+ne 7.
 
 
-LaTeX Warning: Citation 'Tolosa2014' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `Tolosa2014' on page 1 undefined on input line
+ 7.
 
 
-LaTeX Warning: Citation 'Garvie2024' on page 1 undefined on input line 9.
+Package natbib Warning: Citation `Garvie2024' on page 1 undefined on input line
+ 9.
 
 
-LaTeX Warning: Citation 'Prieto2018' on page 1 undefined on input line 12.
+Package natbib Warning: Citation `Prieto2018' on page 1 undefined on input line
+ 12.
 
 
-LaTeX Warning: Citation 'Garvie2024' on page 1 undefined on input line 18.
+Package natbib Warning: Citation `Garvie2024' on page 1 undefined on input line
+ 18.
 
 
-LaTeX Warning: Citation 'Prieto2018' on page 1 undefined on input line 18.
+Package natbib Warning: Citation `Prieto2018' on page 1 undefined on input line
+ 18.
 
 
-LaTeX Warning: Citation 'Frometa2012' on page 1 undefined on input line 18.
+Package natbib Warning: Citation `Frometa2012' on page 1 undefined on input lin
+e 18.
 
 ) (./sections/01_introduccion.tex
+File: tables/output.png Graphic file (type bmp)
+<tables/output.png>
 
-LaTeX Warning: Citation 'Rivas2025' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 1 undefined on input line 2.
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 2--3
-[]\TU/ptm/bx/it/10 La tecnología se ha convertido en uno de los pi-
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
  []
 
 
-LaTeX Warning: Citation 'Espinosa2021' on page 1 undefined on input line 9.
+Package natbib Warning: Citation `Rivas2025' on page 1 undefined on input line 
+5.
 
 
-LaTeX Warning: Citation 'Tolosa2014' on page 1 undefined on input line 9.
+Package natbib Warning: Citation `Gruber2024' on page 1 undefined on input line
+ 5.
 
 
-LaTeX Warning: Citation 'Simmons2024' on page 1 undefined on input line 9.
+Package natbib Warning: Citation `Ribas2008' on page 1 undefined on input line 
+5.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 1 undefined on input line 
+5.
+
+File: tables/output 2.png Graphic file (type bmp)
+<tables/output 2.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10--11
+ [] 
+ []
 
 [1
 
 
 ]
 
-LaTeX Warning: Citation 'Frometa2012' on page 2 undefined on input line 11.
+Package natbib Warning: Citation `Espinosa2021' on page 2 undefined on input li
+ne 14.
 
 
-LaTeX Warning: Citation 'Miro2005' on page 2 undefined on input line 11.
+Package natbib Warning: Citation `Tolosa2014' on page 2 undefined on input line
+ 14.
 
 
-LaTeX Warning: Citation 'Garvie2024' on page 2 undefined on input line 13.
+Package natbib Warning: Citation `Simmons2024' on page 2 undefined on input lin
+e 14.
 
+File: tables/output 3.png Graphic file (type bmp)
+<tables/output 3.png>
 
-LaTeX Warning: Citation 'Prieto2018' on page 2 undefined on input line 13.
-
-) (./sections/02_relacionados.tex
-
-LaTeX Warning: Citation 'Prieto2018' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Tolosa2014' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 2 undefined on input line 20.
-
-[2]
-
-LaTeX Warning: Citation 'Garvie2024' on page 3 undefined on input line 25.
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 25--26
-[]\TU/ptm/bx/it/10 Riesgos de Vigilancia y Sesgo Algorítmico: Garvie
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--17
+ [] 
  []
 
 
-LaTeX Warning: Citation 'Rivas2025' on page 3 undefined on input line 27.
+Package natbib Warning: Citation `Frometa2012' on page 2 undefined on input lin
+e 18.
 
 
-LaTeX Warning: Citation 'MarquesSF' on page 3 undefined on input line 29.
+Package natbib Warning: Citation `Miro2005' on page 2 undefined on input line 1
+8.
+
+File: tables/output 4.png Graphic file (type bmp)
+<tables/output 4.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--21
+ [] 
+ []
 
 
-LaTeX Warning: Citation 'Ribas2008' on page 3 undefined on input line 29.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: tables/output 4.1.png Graphic file (type bmp)
+<tables/output 4.1.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 23--24
+ [] 
+ []
 
 
-LaTeX Warning: Citation 'Alaminos2009' on page 3 undefined on input line 29.
+Package natbib Warning: Citation `Garvie2024' on page 2 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 2 undefined on input line
+ 25.
+
+File: tables/output 5.png Graphic file (type bmp)
+<tables/output 5.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 27--28
+ [] 
+ []
+
+File: tables/output 6.png Graphic file (type bmp)
+<tables/output 6.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 32--33
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[2]) (./sections/02_relacionados.tex
+File: tables/Estado del Arte - Factor Humano.png Graphic file (type bmp)
+<tables/Estado del Arte - Factor Humano.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+
+Package natbib Warning: Citation `Prieto2018' on page 3 undefined on input line
+ 10.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 3 undefined on input lin
+e 12.
+
+
+Package natbib Warning: Citation `Miro2005' on page 3 undefined on input line 1
+2.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 3 undefined on input lin
+e 14.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 3 undefined on input li
+ne 19.
+
+
+Package natbib Warning: Citation `Tolosa2014' on page 3 undefined on input line
+ 19.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 3 undefined on input line
+ 21.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 3 undefined on input line 
+23.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 3 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 3 undefined on input lin
+e 23.
+
+[3]
+
+Package natbib Warning: Citation `Garvie2024' on page 4 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 4 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 4 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 4 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Alaminos2009' on page 4 undefined on input li
+ne 32.
 
 ) (./sections/03_metodologia.tex
+File: tables/Distribución Temática del Texto de Investigación.png Graphic file 
+(type bmp)
+<tables/Distribución Temática del Texto de Investigación.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+File: tables/Metodología_ Tendencia con Bandas de Desviación.png Graphic file (
+type bmp)
+<tables/Metodología_ Tendencia con Bandas de Desviación.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 6--7
+ [] 
+ []
+
+File: tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png Graphic file
+ (type bmp)
+<tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+ [] 
+ []
+
+File: tables/Modelo MMDH_ Variación de Contribución por Dimensión.png Graphic f
+ile (type bmp)
+<tables/Modelo MMDH_ Variación de Contribución por Dimensión.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--13
+ [] 
+ []
+
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:mapping=t
 ex-text;!
 
-LaTeX Warning: Citation 'Costa2016' on page 3 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'Costa2016' on page 3 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 3 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 3 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 3 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 3 undefined on input line 32.
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 32--33
-[]\TU/ptm/bx/it/10 Gestión de Riesgos Tecnológicos y Éticos: Incluye
- []
-
-) (./sections/04_implementacion.tex [3]
-
-LaTeX Warning: Citation 'Frometa2012' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 4 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 4 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 4 undefined on input line 24.
-
-
-LaTeX Warning: Citation 'Rivas2025' on page 4 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Alaminos2009' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 4 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Bishop2005' on page 4 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 4 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 4 undefined on input line 39.
-
-) (./sections/05_resultados.tex
-
-LaTeX Warning: Citation 'Rivas2025' on page 4 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 4 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Ribas2008' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 4 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Espinosa2021' on page 4 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Simmons2024' on page 4 undefined on input line 18.
+Package natbib Warning: Citation `Costa2016' on page 4 undefined on input line 
+33.
 
 [4]
 
-LaTeX Warning: Citation 'Costa2016' on page 5 undefined on input line 20.
+Package natbib Warning: Citation `Costa2016' on page 5 undefined on input line 
+38.
 
 
-LaTeX Warning: Citation 'Garvie2024' on page 5 undefined on input line 25.
+Package natbib Warning: Citation `Frometa2012' on page 5 undefined on input lin
+e 40.
 
 
-LaTeX Warning: Citation 'Frometa2012' on page 5 undefined on input line 27.
+Package natbib Warning: Citation `Miro2005' on page 5 undefined on input line 4
+0.
 
 
-LaTeX Warning: Citation 'Miro2005' on page 5 undefined on input line 27.
+Package natbib Warning: Citation `Rivas2025' on page 5 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 5 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 5 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 5 undefined on input line
+ 42.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 5 undefined on input lin
+e 42.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 5 undefined on input line
+ 44.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 5 undefined on input line
+ 44.
+
+) (./sections/04_implementacion.tex
+
+Package natbib Warning: Citation `Frometa2012' on page 5 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Miro2005' on page 5 undefined on input line 9
+.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 5 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 5 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 5 undefined on input line
+ 11.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 5 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 5 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 5 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 5 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Rivas2025' on page 5 undefined on input line 
+27.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 5 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Alaminos2009' on page 5 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 5 undefined on input lin
+e 33.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 5 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 5 undefined on input line
+ 36.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 5 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 5 undefined on input lin
+e 39.
+
+) (./sections/05_resultados.tex
+File: tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.
+png Graphic file (type bmp)
+<tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+[5]
+
+Package natbib Warning: Citation `Rivas2025' on page 6 undefined on input line 
+10.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 6 undefined on input line
+ 10.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 6 undefined on input line 
+12.
+
+
+Package natbib Warning: Citation `Ribas2008' on page 6 undefined on input line 
+12.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 6 undefined on input line
+ 14.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 6 undefined on input li
+ne 19.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 6 undefined on input lin
+e 21.
+
+
+Package natbib Warning: Citation `Costa2016' on page 6 undefined on input line 
+23.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 6 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 6 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Miro2005' on page 6 undefined on input line 3
+0.
 
 ) (./sections/06_discusion.tex
+File: tables/La Paradoja de la Potenciación y la Tensión Ética.png Graphic file
+ (type bmp)
+<tables/La Paradoja de la Potenciación y la Tensión Ética.png>
 
-LaTeX Warning: Citation 'Espinosa2021' on page 5 undefined on input line 7.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
+ []
 
+File: tables/Discusión_ Intensidad Conceptual de los Subtemas.png Graphic file 
+(type bmp)
+<tables/Discusión_ Intensidad Conceptual de los Subtemas.png>
 
-LaTeX Warning: Citation 'Simmons2024' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Miro2005' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 5 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 5 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Garvie2024' on page 5 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Prieto2018' on page 5 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 5 undefined on input line 20.
-
-) (./sections/07_conclusiones.tex [5]
-
-LaTeX Warning: Citation 'Rivas2025' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Gruber2024' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Frometa2012' on page 6 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'MarquesSF' on page 6 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'Pacheco2020' on page 6 undefined on input line 13.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[]\TU/ptm/bx/it/10 El acceso inclusivo y la mediación pedagógica
+Overfull \hbox (6.0pt too wide) in paragraph at lines 6--7
+ [] 
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 13--14
-[]\TU/ptm/bx/it/10 , [] son indispensables para
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+[6]
+File: tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png Graphic fi
+le (type bmp)
+<tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+ [] 
  []
 
 
-LaTeX Warning: Citation 'Espinosa2021' on page 6 undefined on input line 18.
+Package natbib Warning: Citation `Espinosa2021' on page 7 undefined on input li
+ne 16.
 
 
-LaTeX Warning: Citation 'Simmons2024' on page 6 undefined on input line 20.
+Package natbib Warning: Citation `Simmons2024' on page 7 undefined on input lin
+e 16.
 
 
-LaTeX Warning: Citation 'Bishop2005' on page 6 undefined on input line 22.
+Package natbib Warning: Citation `Frometa2012' on page 7 undefined on input lin
+e 16.
 
 
-LaTeX Warning: Citation 'Garvie2024' on page 6 undefined on input line 27.
+Package natbib Warning: Citation `Miro2005' on page 7 undefined on input line 1
+6.
 
 
-LaTeX Warning: Citation 'Prieto2018' on page 6 undefined on input line 27.
+Package natbib Warning: Citation `Gruber2024' on page 7 undefined on input line
+ 18.
 
-) (./sections/A1_apendices.tex
+
+Package natbib Warning: Citation `MarquesSF' on page 7 undefined on input line 
+20.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 7 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 7 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 7 undefined on input lin
+e 29.
+
+) (./sections/07_conclusiones.tex
+File: tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectore
+s (1).png Graphic file (type bmp)
+<tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores (1)
+.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+File: tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectore
+s.png Graphic file (type bmp)
+<tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores.png
+>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 6--7
+ [] 
+ []
+
+
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+[7]
+File: tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.
+png Graphic file (type bmp)
+<tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+ [] 
+ []
+
+
+Package natbib Warning: Citation `Rivas2025' on page 8 undefined on input line 
+18.
+
+
+Package natbib Warning: Citation `Gruber2024' on page 8 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `Frometa2012' on page 8 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `MarquesSF' on page 8 undefined on input line 
+22.
+
+
+Package natbib Warning: Citation `Pacheco2020' on page 8 undefined on input lin
+e 22.
+
+
+Package natbib Warning: Citation `Espinosa2021' on page 8 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `Simmons2024' on page 8 undefined on input lin
+e 29.
+
+
+Package natbib Warning: Citation `Bishop2005' on page 8 undefined on input line
+ 31.
+
+
+Package natbib Warning: Citation `Garvie2024' on page 8 undefined on input line
+ 36.
+
+
+Package natbib Warning: Citation `Prieto2018' on page 8 undefined on input line
+ 36.
+
+) (./sections/A1_apendices.tex [8]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1243,10 +1237,12 @@ Missing character: There is no è ("E8) in font cmex10!
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman10-regular]:mapping=
 tex-text;!
 
-LaTeX Warning: Citation 'Espinosa2021' on page 6 undefined on input line 19.
+Package natbib Warning: Citation `Espinosa2021' on page 9 undefined on input li
+ne 19.
 
 
-LaTeX Warning: Citation 'Tolosa2014' on page 6 undefined on input line 19.
+Package natbib Warning: Citation `Tolosa2014' on page 9 undefined on input line
+ 19.
 
 
 ./sections/A1_apendices.tex:22: LaTeX Error: Environment tikzpicture undefined.
@@ -1437,17 +1433,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6]
 Missing character: There is no 📊 (U+1F4CA) in font [lmroman10-regular]:mapping=
 tex-text;!
 
-LaTeX Warning: Citation 'Garvie2024' on page 7 undefined on input line 52.
+Package natbib Warning: Citation `Garvie2024' on page 9 undefined on input line
+ 52.
 
 
-LaTeX Warning: Citation 'Frometa2012' on page 7 undefined on input line 52.
+Package natbib Warning: Citation `Frometa2012' on page 9 undefined on input lin
+e 52.
 
 
-LaTeX Warning: Citation 'Miro2005' on page 7 undefined on input line 52.
+Package natbib Warning: Citation `Miro2005' on page 9 undefined on input line 5
+2.
 
 
 ./sections/A1_apendices.tex:55: LaTeX Error: Environment tikzpicture undefined.
@@ -1586,11 +1584,11 @@ you'd better type `E' or `X' now and fix your file.
 
  
 Here is how much of TeX's memory you used:
- 31547 strings out of 468179
- 668010 string characters out of 5435042
- 1591373 words of memory out of 5000000
- 59945 multiletter control sequences out of 15000+600000
+ 24813 strings out of 468179
+ 534777 string characters out of 5435042
+ 1018961 words of memory out of 5000000
+ 53246 multiletter control sequences out of 15000+600000
  628417 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,8n,83p,1006b,4633s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on build/main_ieee.xdv (6 pages, 340124 bytes).
+ 78i,8n,83p,1006b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on build/main_ieee.xdv (8 pages, 315652 bytes).

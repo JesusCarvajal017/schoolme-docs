@@ -328,43 +328,94 @@ INPUT ./sections/01_introduccion.tex
 INPUT ./sections/01_introduccion.tex
 INPUT ./sections/01_introduccion.tex
 INPUT sections/01_introduccion.tex
+INPUT ./tables/output.png
+INPUT ./tables/output.png
+INPUT ./tables/output.png
+INPUT ./tables/output 2.png
+INPUT ./tables/output 2.png
+INPUT ./tables/output 2.png
 OUTPUT build/main_acm.xdv
+INPUT ./tables/output 3.png
+INPUT ./tables/output 3.png
+INPUT ./tables/output 3.png
+INPUT ./tables/output 4.png
+INPUT ./tables/output 4.png
+INPUT ./tables/output 4.png
+INPUT ./tables/output 4.1.png
+INPUT ./tables/output 4.1.png
+INPUT ./tables/output 4.1.png
+INPUT ./tables/output 5.png
+INPUT ./tables/output 5.png
+INPUT ./tables/output 5.png
+INPUT ./tables/output 6.png
+INPUT ./tables/output 6.png
+INPUT ./tables/output 6.png
 INPUT ./sections/02_relacionados.tex
 INPUT ./sections/02_relacionados.tex
 INPUT ./sections/02_relacionados.tex
 INPUT ./sections/02_relacionados.tex
 INPUT sections/02_relacionados.tex
+INPUT ./tables/Estado del Arte - Factor Humano.png
+INPUT ./tables/Estado del Arte - Factor Humano.png
+INPUT ./tables/Estado del Arte - Factor Humano.png
 INPUT ./sections/03_metodologia.tex
 INPUT ./sections/03_metodologia.tex
 INPUT ./sections/03_metodologia.tex
 INPUT ./sections/03_metodologia.tex
 INPUT sections/03_metodologia.tex
+INPUT ./tables/Distribución Temática del Texto de Investigación.png
+INPUT ./tables/Distribución Temática del Texto de Investigación.png
+INPUT ./tables/Distribución Temática del Texto de Investigación.png
+INPUT ./tables/Metodología_ Tendencia con Bandas de Desviación.png
+INPUT ./tables/Metodología_ Tendencia con Bandas de Desviación.png
+INPUT ./tables/Metodología_ Tendencia con Bandas de Desviación.png
+INPUT ./tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png
+INPUT ./tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png
+INPUT ./tables/Modelo MMDH_ Tendencia con Bandas de Variabilidad.png
+INPUT ./tables/Modelo MMDH_ Variación de Contribución por Dimensión.png
+INPUT ./tables/Modelo MMDH_ Variación de Contribución por Dimensión.png
+INPUT ./tables/Modelo MMDH_ Variación de Contribución por Dimensión.png
 INPUT ./sections/04_implementacion.tex
 INPUT ./sections/04_implementacion.tex
 INPUT ./sections/04_implementacion.tex
 INPUT ./sections/04_implementacion.tex
 INPUT sections/04_implementacion.tex
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex
 INPUT sections/05_resultados.tex
+INPUT ./tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.png
+INPUT ./tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.png
+INPUT ./tables/Resultados_ Tendencia de los Tres Ejes con Bandas de Variabilidad.png
 INPUT ./sections/06_discusion.tex
 INPUT ./sections/06_discusion.tex
 INPUT ./sections/06_discusion.tex
 INPUT ./sections/06_discusion.tex
 INPUT sections/06_discusion.tex
+INPUT ./tables/La Paradoja de la Potenciación y la Tensión Ética.png
+INPUT ./tables/La Paradoja de la Potenciación y la Tensión Ética.png
+INPUT ./tables/La Paradoja de la Potenciación y la Tensión Ética.png
+INPUT ./tables/Discusión_ Intensidad Conceptual de los Subtemas.png
+INPUT ./tables/Discusión_ Intensidad Conceptual de los Subtemas.png
+INPUT ./tables/Discusión_ Intensidad Conceptual de los Subtemas.png
+INPUT ./tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png
+INPUT ./tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png
+INPUT ./tables/Discusión_ Tendencia y Variabilidad de los Subtemas.png
 INPUT ./sections/07_conclusiones.tex
 INPUT ./sections/07_conclusiones.tex
 INPUT ./sections/07_conclusiones.tex
 INPUT ./sections/07_conclusiones.tex
 INPUT sections/07_conclusiones.tex
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores (1).png
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores (1).png
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores (1).png
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores.png
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores.png
+INPUT ./tables/Conclusiones_ Intensidad Conceptual de los Tres Principios Rectores.png
+INPUT ./tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.png
+INPUT ./tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.png
+INPUT ./tables/Conclusiones_ Tendencia y Variabilidad de los Principios Rectores.png
 INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
